@@ -1,3 +1,16 @@
+# 저자 원본 설명
+
+JIT can be enabled with iOS 17 on windows, but not easily.
+
+I DID NOT WRITE THIS! 
+All credit goes to naturecodevoid.
+
+Basically you can enable JIT on iOS 17 with windows if you are 
+willing to go through this process here: https://gist.github.com/nythepegasus/78c4f1474367a0fd4eef4c55a06cf919
+
+
+you will need your UDID, which you can get by following the instructions on  https://udid.tech . 
+
 # JIT Using pymobiledevice3
 Some prerequisites for Windows currently is that you need Python and lldb installed somehow. 
 In this small guide, I will use scoop, but you can use whatever you like to get the binaries necessary.
