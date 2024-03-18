@@ -6,28 +6,22 @@
 
 ### ar 명령을 사용하여 deb 파일을 추출합니다.
 
-* copy command
 ```
 ar -x wget_1.19.5-2_iphoneos-arm.deb
 ```
-* 이렇게 하면 debian-binary, control.tar.xz, data.tar.lzma와 같은 파일들이 생성됩니다.
-* data.tar.lzm 파일을 tar로 풉니다.
-
-* lzma 파일을 풀려면 다음 명령을 사용할 수 있습니다:
-* 이 명령은 data.tar.lzma를 data.tar 파일로 압축 해제합니다.
 
 ### lzma 압축 해제
 ```
 lzma -d data.tar.lzma
 ```
 
-### 그 다음, tar 명령을 사용하여 data.tar 파일을 추출할 수 있습니다:
+### tar 명령을 사용하여 data.tar 파일을 추출할
 
 ```
 tar xvf data.tar
 ```
 
- 결과확인
+#### 결과확인
 ```
 hacker@blackfalconui-MacBookAir data % tar xvf data.tar 
 x .
