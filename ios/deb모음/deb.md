@@ -9,7 +9,7 @@ total 392
 -rw-r--r--@ 1 hacker  staff  199810  3 19 08:09 wget_1.19.5-2_iphoneos-arm.deb
 ```
 
-ar 명령을 사용하여 deb 파일을 추출합니다.
+### ar 명령을 사용하여 deb 파일을 추출합니다.
 
 ```
 ar -x wget_1.19.5-2_iphoneos-arm.deb
