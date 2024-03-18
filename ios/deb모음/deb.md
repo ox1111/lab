@@ -13,7 +13,9 @@ ar 명령을 사용하여 deb 파일을 추출합니다.
 
 Copy code
 ar -x dpkg_1.19.7-2_iphoneos-arm.deb
-이렇게 하면 debian-binary, control.tar.xz, data.tar.xz와 같은 파일들이 생성됩니다.
+
+이렇게 하면 debian-binary, control.tar.xz, data.tar.xz와 
+같은 파일들이 생성됩니다.
 data.tar.xz 파일을 tar로 풉니다.
 
 Copy code
