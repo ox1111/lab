@@ -18,9 +18,25 @@ Copy code
 ar -x dpkg_1.19.7-2_iphoneos-arm.deb
 ```
 
-이렇게 하면 debian-binary, control.tar.xz, data.tar.xz와 
+이렇게 하면 debian-binary, control.tar.xz, data.tar.lzma와 
 같은 파일들이 생성됩니다.
-data.tar.xz 파일을 tar로 풉니다.
+data.tar.lzm 파일을 tar로 풉니다.
+
+lzma 파일을 풀려면 다음 명령을 사용할 수 있습니다:
+
+```
+lzma -d data.tar.lzma
+```
+이 명령은 data.tar.lzma를 data.tar 파일로 압축 해제합니다.
+
+그 다음, tar 명령을 사용하여 data.tar 파일을 추출할 수 있습니다:
+
+
+```
+tar -xvf data.tar
+```
+이렇게 하면 deb 패키지의 실제 컨텐츠가 현재 디렉토리에 추출됩니다.
+
 
 Copy code
 ```
