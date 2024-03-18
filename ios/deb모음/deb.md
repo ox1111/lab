@@ -11,6 +11,7 @@ total 392
 
 ### ar 명령을 사용하여 deb 파일을 추출합니다.
 
+* copy command
 ```
 ar -x wget_1.19.5-2_iphoneos-arm.deb
 ```
