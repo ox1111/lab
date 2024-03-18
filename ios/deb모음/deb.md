@@ -1,21 +1,37 @@
 # deb 모음 
 
 ## dpkg 사용할 수 없을 때 수동으로 풀기
-deb 파일은 ar 아카이브와 tar 아카이브의 조합으로 이루어져 있습니다.
-
-다음 단계를 따라 deb 파일을 수동으로 풀 수 있습니다:
-
-deb 파일을 작업 디렉토리에 복사합니다.
 
 
 ```base
-cp dpkg_1.19.7-2_iphoneos-arm.deb ./
+hacker@blackfalconui-MacBookAir wget_cus % ls -ltr
+total 392
+-rw-r--r--@ 1 hacker  staff  199810  3 19 08:09 wget_1.19.5-2_iphoneos-arm.deb
 ```
+
 ar 명령을 사용하여 deb 파일을 추출합니다.
 
-Copy code
 ```
-ar -x dpkg_1.19.7-2_iphoneos-arm.deb
+ar -x wget_1.19.5-2_iphoneos-arm.deb
+```
+
+```
+hacker@blackfalconui-MacBookAir wget_cus % ls -ltr
+total 800
+-rw-r--r--@ 1 hacker  staff  199810  3 19 08:09 wget_1.19.5-2_iphoneos-arm.deb
+-rw-r--r--  1 hacker  staff       4  3 19 08:29 debian-binary
+-rw-r--r--  1 hacker  staff     332  3 19 08:29 control.tar.gz
+-rw-r--r--  1 hacker  staff  199285  3 19 08:29 data.tar.lzma
+```
+```
+hacker@blackfalconui-MacBookAir wget_cus % mkdir data
+hacker@blackfalconui-MacBookAir wget_cus % mv data.tar.lzma data
+hacker@blackfalconui-MacBookAir wget_cus % cd data
+hacker@blackfalconui-MacBookAir data % ls -ltr
+total 392
+-rw-r--r--  1 hacker  staff  199285  3 19 08:29 data.tar.lzma
+hacker@blackfalconui-MacBookAir data % pwd
+/Users/hacker/Downloads/package/wget_cus/data
 ```
 
 이렇게 하면 debian-binary, control.tar.xz, data.tar.lzma와 
@@ -23,18 +39,41 @@ ar -x dpkg_1.19.7-2_iphoneos-arm.deb
 data.tar.lzm 파일을 tar로 풉니다.
 
 lzma 파일을 풀려면 다음 명령을 사용할 수 있습니다:
+이 명령은 data.tar.lzma를 data.tar 파일로 압축 해제합니다.
 
+```
+hacker@blackfalconui-MacBookAir data % ls -ltr
+total 392
+-rw-r--r--  1 hacker  staff  199285  3 19 08:29 data.tar.lzma
+```
+
+압축 해제
 ```
 lzma -d data.tar.lzma
 ```
-이 명령은 data.tar.lzma를 data.tar 파일로 압축 해제합니다.
+```
+hacker@blackfalconui-MacBookAir data % lzma -d data.tar.lzma 
+hacker@blackfalconui-MacBookAir data % ls -ltr
+total 1104
+-rw-r--r--  1 hacker  staff  564736  3 19 08:29 data.tar
+```
 
 그 다음, tar 명령을 사용하여 data.tar 파일을 추출할 수 있습니다:
 
 
 ```
-tar -xvf data.tar
+tar xvf data.tar
 ```
+```
+hacker@blackfalconui-MacBookAir data % tar xvf data.tar 
+x .
+x ./usr
+x ./usr/bin
+x ./usr/bin/wget
+x ./usr/etc
+x ./usr/etc/wgetrc
+```
+
 이렇게 하면 deb 패키지의 실제 컨텐츠가 현재 디렉토리에 추출됩니다.
 
 
@@ -48,7 +87,7 @@ tar -xf data.tar.xz
 
 ## dpkg 사용할 수 있을 때
 ```
-sudo dpkg -i dpkg_1.19.7-2_iphoneos-arm.deb
+sudo dpkg -i wget_1.19.5-2_iphoneos-arm.deb
 ```
 
 ## deb
