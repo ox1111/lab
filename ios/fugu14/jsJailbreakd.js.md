@@ -10,7 +10,7 @@
 [+]    
 [+]    
 [+]    
-[+] modify by SPeeDr00t
+[+] modify by SpeeDr00t
 [+]    
 [+]    
 [+]    
