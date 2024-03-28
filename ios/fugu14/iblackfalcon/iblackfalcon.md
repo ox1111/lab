@@ -1,7 +1,7 @@
 # iDownload를 수정한 버전
 
 
-## help 
+## help 명령
 
 ```
 iBlackFalcon version3 1.2 ready.
