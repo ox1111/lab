@@ -19,7 +19,7 @@ Tested on iPhone 11 (iOS 14.0).
 
 ## fugu14
 ```
-ios 14.3 ~ 14.5
+ios 14.3 - 14.5.1
 ```
 
 https://github.com/ox1111/lab/tree/master/ios/fugu14
