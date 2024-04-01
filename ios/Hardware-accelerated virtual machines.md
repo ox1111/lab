@@ -20,7 +20,7 @@ https://worthdoingbadly.com/hv/
 
 <p>Here’s a video of my iPhone 12 running the modified UTM, booting a Fedora 36 VM, and showing the requisite Neofetch and LibreOffice demo.</p>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yrRR7reUseo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+https://www.youtube-nocookie.com/embed/yrRR7reUseo
 
 <h1 id="information">Information</h1>
 
