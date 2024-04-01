@@ -81,7 +81,7 @@ https://www.youtube-nocookie.com/embed/yrRR7reUseo
 <p>Unlocking Hypervisor.framework required three parts:</p>
 
 <ul>
-  <li><a href="https://github.com/zhuowei/Fugu14/tree/wip-connect6">A modified Fugu14 jailbreak</a> to call hypervisor functions in the kernel</li>
+  <li><a href="https://github.com/ox1111/Fugu14_zhuowei_ver">A modified Fugu14 jailbreak</a> to call hypervisor functions in the kernel</li>
   <li><a href="https://github.com/ox1111/HvDecompile">A hand-decompiled Hypervisor.framework</a> to talk with the kernel’s hypervisor support</li>
   <li><a href="https://github.com/ox1111/UTM">A modified version of UTM</a>, the QEMU port for iOS, that uses the Hypervisor.framework support</li>
 </ul>
