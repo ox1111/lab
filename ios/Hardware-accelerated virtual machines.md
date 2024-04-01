@@ -82,8 +82,8 @@ https://worthdoingbadly.com/hv/
 
 <ul>
   <li><a href="https://github.com/zhuowei/Fugu14/tree/wip-connect6">A modified Fugu14 jailbreak</a> to call hypervisor functions in the kernel</li>
-  <li><a href="https://github.com/zhuowei/HvDecompile">A hand-decompiled Hypervisor.framework</a> to talk with the kernel’s hypervisor support</li>
-  <li><a href="https://github.com/zhuowei/UTM">A modified version of UTM</a>, the QEMU port for iOS, that uses the Hypervisor.framework support</li>
+  <li><a href="https://github.com/ox1111/HvDecompile">A hand-decompiled Hypervisor.framework</a> to talk with the kernel’s hypervisor support</li>
+  <li><a href="https://github.com/ox1111/UTM">A modified version of UTM</a>, the QEMU port for iOS, that uses the Hypervisor.framework support</li>
 </ul>
 
 <h1 id="why-hypervisor-syscalls-dont-work-on-iphones">Why Hypervisor syscalls don’t work on iPhones</h1>
@@ -140,7 +140,7 @@ https://worthdoingbadly.com/hv/
 
 <p>If hypervisor support is enabled, this code dispatches to the hypervisor Mach trap handler. If hypervisor support is disabled, this code simply returns 0xfae9400f - <code class="language-plaintext highlighter-rouge">HV_UNSUPPORTED</code>.</p>
 
-<p>You can test this - even without a jailbreak - by running <a href="https://gist.github.com/zhuowei/43777b6741645a91fb81eb9ab192ca38">this code</a>, which attempts to create a VM.</p>
+<p>You can test this - even without a jailbreak - by running <a href="https://github.com/ox1111/lab/blob/master/ios/fugu14/hv.m">this code</a>, which attempts to create a VM.</p>
 
 <ul>
   <li>on a Mac, or an iPad Pro/Air with M1, you’ll get HV_DENIED (0xfae94007)</li>
@@ -176,16 +176,16 @@ https://worthdoingbadly.com/hv/
   <li>remove all physical memory access functions; replace kernel virtual memory access functions with calls to <code class="language-plaintext highlighter-rouge">libkernrw</code></li>
   <li>replace all physical memory accesses with virtual memory accesses</li>
   <li>replace anything that maps a physical page into userspace with calls to read/write through <code class="language-plaintext highlighter-rouge">libkernrw</code></li>
-  <li>made the patchfinder <a href="https://github.com/zhuowei/Fugu14/blob/d152c6116fd17a7f617e83447d320983ebd71da6/arm/shared/KernelExploit/Sources/KernelExploit/MemoryAccess.swift#L102">load the kernel from disk</a> instead of dumping from memory, which takes minutes using <code class="language-plaintext highlighter-rouge">libkernrw</code></li>
+  <li>made the patchfinder <a href="https://github.com/ox1111/Fugu14_zhuowei_ver/blob/d152c6116fd17a7f617e83447d320983ebd71da6/arm/shared/KernelExploit/Sources/KernelExploit/MemoryAccess.swift#L102">load the kernel from disk</a> instead of dumping from memory, which takes minutes using <code class="language-plaintext highlighter-rouge">libkernrw</code></li>
 </ul>
 
 <p>all uses of physical addresses was easily replaced… except one:</p>
 
-<p>The exploit starts a thread that used a physical memory mapping to <a href="https://github.com/zhuowei/Fugu14/blob/0105b9f6bd2fb006ef91e13029bb905e1bdb8f24/arm/iOS/jailbreakd/Sources/asmAndC/asm.S#L24">overwrite its own</a> kernel stack pointer (<code class="language-plaintext highlighter-rouge">machine.kstackptr</code>) before making a syscall.</p>
+<p>The exploit starts a thread that used a physical memory mapping to <a href="https://github.com/ox1111/Fugu14_zhuowei_ver/blob/0105b9f6bd2fb006ef91e13029bb905e1bdb8f24/arm/iOS/jailbreakd/Sources/asmAndC/asm.S#L24">overwrite its own</a> kernel stack pointer (<code class="language-plaintext highlighter-rouge">machine.kstackptr</code>) before making a syscall.</p>
 
 <p>I didn’t know whether calling <code class="language-plaintext highlighter-rouge">libkernrw</code> - which would result in an extra IPC call to jailbreakd before the start of the exploit - would break it.</p>
 
-<p>So, out of caution, I made the exploit thread <a href="https://github.com/zhuowei/Fugu14/blob/d152c6116fd17a7f617e83447d320983ebd71da6/arm/iOS/jailbreakd/Sources/asmAndC/asm.S#L25">wait in a loop</a>, and did the write <a href="https://github.com/zhuowei/Fugu14/blob/d152c6116fd17a7f617e83447d320983ebd71da6/arm/iOS/jailbreakd/Sources/jailbreakd/PostExploitation.swift#L400">from the main thread</a> instead.</p>
+<p>So, out of caution, I made the exploit thread <a href="https://github.com/ox1111/Fugu14_zhuowei_ver/blob/d152c6116fd17a7f617e83447d320983ebd71da6/arm/iOS/jailbreakd/Sources/asmAndC/asm.S#L25">wait in a loop</a>, and did the write <a href="https://github.com/ox1111/Fugu14_zhuowei_ver/blob/d152c6116fd17a7f617e83447d320983ebd71da6/arm/iOS/jailbreakd/Sources/jailbreakd/PostExploitation.swift#L400">from the main thread</a> instead.</p>
 
 <p>This modularity of Fugu14 is a real testament to Linus Henze’s software engineering skills… and a boon to script kiddles like me: I can just mix and match jailbreaks to get what I want :D</p>
 
@@ -201,7 +201,7 @@ https://worthdoingbadly.com/hv/
 
 <p>But at the end of it, I have a Mach port that I can use with IOConnectTrap6 to call PAC-signed pointers with two arguments.</p>
 
-<p>I then <a href="https://github.com/zhuowei/Fugu14/blob/d152c6116fd17a7f617e83447d320983ebd71da6/arm/iOS/jailbreakd/Sources/jailbreakd/main.swift#L358">register</a> the jailbreakd task point with <code class="language-plaintext highlighter-rouge">launchd</code> using <code class="language-plaintext highlighter-rouge">bootstrap_register</code>, so that apps can <a href="https://github.com/zhuowei/HvDecompile/blob/f35ca73a47c8bbc3991df851440d661fec68cad3/userclient_hv_trap.m#L46">grab the IOUserClient</a> directly out of jailbreakd with <code class="language-plaintext highlighter-rouge">mach_port_extract_right</code>.</p>
+<p>I then <a href="https://github.com/ox1111/Fugu14_zhuowei_ver/blob/d152c6116fd17a7f617e83447d320983ebd71da6/arm/iOS/jailbreakd/Sources/jailbreakd/main.swift#L358">register</a> the jailbreakd task point with <code class="language-plaintext highlighter-rouge">launchd</code> using <code class="language-plaintext highlighter-rouge">bootstrap_register</code>, so that apps can <a href="https://github.com/ox1111/HvDecompile/blob/f35ca73a47c8bbc3991df851440d661fec68cad3/userclient_hv_trap.m#L46">grab the IOUserClient</a> directly out of jailbreakd with <code class="language-plaintext highlighter-rouge">mach_port_extract_right</code>.</p>
 
 <p>(Yes, I should’ve used an XPC service, but, hey, proof of concept.)</p>
 
@@ -217,7 +217,7 @@ https://worthdoingbadly.com/hv/
 
 <p><code class="language-plaintext highlighter-rouge">type lookup arm_guest_context_t</code></p>
 
-<p>gives me a <a href="https://github.com/zhuowei/HvDecompile/blob/main/hv_kernel_structs.h">nice dump</a> of the structures.</p>
+<p>gives me a <a href="https://github.com/ox1111/HvDecompile/blob/main/hv_kernel_structs.h">nice dump</a> of the structures.</p>
 
 <p>These kernel structures changed slightly between macOS 11.0/iOS 14.1 and macOS 12.3.1, so I had to compare the struct definition from macOS 11.0 and 12.3.1’s kernel symbols, then add <code class="language-plaintext highlighter-rouge">#define</code>s to my header to allow me to test on both macOS 12 and iOS 14.1</p>
 
@@ -233,12 +233,12 @@ https://worthdoingbadly.com/hv/
 
 <h1 id="modifying-utm">Modifying UTM</h1>
 
-<p>I decided to modify the excellent <a href="https://getutm.app">UTM</a>, a port of QEMU to macOS and iOS. Since QEMU and UTM already support Hypervisor.framework on Apple Silicon, all <a href="https://github.com/zhuowei/UTM/commits/master">I needed to do</a> was:</p>
+<p>I decided to modify the excellent <a href="https://getutm.app">UTM</a>, a port of QEMU to macOS and iOS. Since QEMU and UTM already support Hypervisor.framework on Apple Silicon, all <a href="https://github.com/ox1111/UTM/commits/master">I needed to do</a> was:</p>
 
 <ul>
   <li>remove a few <code class="language-plaintext highlighter-rouge">os(macOS)</code> checks in UTM</li>
   <li>add the entitlements to access Hypervisor.framework and to communicate with the modified Fugu14</li>
-  <li>work around an issue with <a href="https://github.com/utmapp/UTM/issues/3628#issuecomment-1144463617">UTM and Taurine</a></li>
+  <li>work around an issue with <a href="https://github.com/ox1111/UTM/issues/3628#issuecomment-1144463617">UTM and Taurine</a></li>
 </ul>
 
 <p>and it just worked!</p>
@@ -276,5 +276,4 @@ https://worthdoingbadly.com/hv/
   <li>How to <a href="https://docs.waydro.id/development/compile-waydroid-lineage-os-based-images">build Waydroid</a>, how long it takes on a cloud VM (3 hours - 1 h to download and 2 h to build), how large it is (190GB), and how much it costs ($10). (I didn’t end up using the build, alas…)</li>
 </ul>
 
-  </div><a class="u-url" href="/hv/" hidden></a>
 </article>
