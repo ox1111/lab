@@ -1,6 +1,9 @@
 # Fugu14
 ## [ Fugu14에 있는 runJailbreakd.js 이야기 ]
 
+## 예외처리
+![1](ex1.png)
+
 # runJailbreakd.js 출력 Log
 
 ```
