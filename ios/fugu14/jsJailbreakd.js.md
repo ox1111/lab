@@ -4,6 +4,8 @@
 ## 예외처리
 ![1](ex1.png)
 
+![2](ex2.png)
+
 # runJailbreakd.js 출력 Log
 
 ```
