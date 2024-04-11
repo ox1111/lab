@@ -1,3 +1,30 @@
+#
+# write by kyoung chip ,jang
+# ida 8.3
+#
+'''
+funcaddr.txt
+_get_thread_identifier_info,0x50C0
+_get_proc_threadinfo,0x5110
+-[X61WYG_IRD7 sessionId],0x5148
+-[X61WYG_IRD7 sessionToken],0x5150
+-[X61WYG_IRD7 getCachedSystemIdentifier],0x51A0
+_vm_region_recurse_64,0x1C920
+_vsscanf,0x1C92C
+_write,0x1C938
+
+addr.txt
+const funcInfo = [
+    { name: "_get_thread_identifier_info", offset: 0x50C0 },
+    { name: "_get_proc_threadinfo", offset: 0x5110 },
+    { name: "-[X61WYG_IRD7 sessionId]", offset: 0x5148 },
+    { name: "-[X61WYG_IRD7 sessionToken]", offset: 0x5150 },
+    { name: "-[X61WYG_IRD7 getCachedSystemIdentifier]", offset: 0x51A0 },
+    { name: "_vm_region_recurse_64", offset: 0x1C920 },
+    { name: "_vsscanf", offset: 0x1C92C },
+    { name: "_write", offset: 0x1C938 },
+];
+
 
 # 파일 이름
 input_filename = "funaddr.txt"
