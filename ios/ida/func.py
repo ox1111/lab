@@ -22,17 +22,11 @@ def get_function_info():
     return function_info
 
 def main():
-    print("Function Name\tRelative Address")
+    print("\n\n\n\nFunction Name\tRelative Address")
     print("------------------------------------")
     
     for func_name, func_offset in get_function_info():
-        print(f"{func_name}\t0x{func_offset:X}")
-
-if __name__ == "__main__":
-    main()
-    
-    for func_name, func_offset in get_function_info():
-        print(f"{func_name}\t0x{func_offset:X}")
+        print(f"{func_name},0x{func_offset:X}")
 
 if __name__ == "__main__":
     main()
