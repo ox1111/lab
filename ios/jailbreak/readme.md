@@ -17,6 +17,29 @@ https://speedr00t.tistory.com/946
 
 https://github.com/ox1111/wtfis.git
 
+## iOS 9.0-9.3.4
+tfp0 for iOS 9.0-9.3.4
+
+USAGE
+```
+./cl0ver panic [log=file]
+    Panic the device, loading to PC:
+    on 32-bit: the base address of __DATA.__const
+    on 64-bit: the OSString vtable
+
+./cl0ver slide [log=file]
+    Print kernel slide
+
+./cl0ver dump [log=file]
+    Dump kernel to kernel.bin
+
+./cl0ver [log=file]
+    Apply tfp0 kernel patch
+
+If log=file is give, output is written to "file" instead of stderr/syslog.
+```
+https://github.com/ox1111/cl0ver.git
+
 ## iOS-9.3.5
 https://github.com/ox1111/32-bit-only-iOS-9.3.5-Jailbreak.git
 
