@@ -13,6 +13,12 @@ https://github.com/ox1111/OsirisJailbreak12.git
 https://github.com/ox1111/c0verup.git
 
 
+# [+] iOS 15.0(palera1n)
+* Jailbreak for A8 through A11, T2 devices, on iOS/iPadOS/tvOS 15.0, bridgeOS 5.0 and higher.
+
+https://github.com/ox1111/palera1n.git
+
+
 ## [+] iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64)(Dopamine)
 Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64).
 
