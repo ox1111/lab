@@ -100,6 +100,9 @@ https://github.com/ox1111/get-cydia-deb.git
 https://github.com/ox1111/SignTools.git
 
 
+## p0insettia
+https://github.com/ox1111/p0insettia
+
 ## CPBypass2
 https://github.com/ox1111/CPBypass2.git
 
