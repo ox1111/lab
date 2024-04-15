@@ -32,6 +32,8 @@ https://github.com/ox1111/c0verup.git
 
 https://github.com/ox1111/palera1n.git
 
+## iOS 15.0 - 16.3 (bakera1n)
+https://github.com/ox1111/bakera1n.git
 
 ## [+] iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64)(Dopamine)
 Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64).
