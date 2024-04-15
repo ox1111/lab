@@ -1,26 +1,26 @@
-# [+] iOS 12.0 -> 12.1.2 (OsirisJailbreak12) 
+## [+] iOS 12.0 -> 12.1.2 (OsirisJailbreak12) 
 * Incomplete Jailbreak with CVE-2019-6225
 
 https://github.com/ox1111/OsirisJailbreak12.git
 
 
-# [+] ios 13 and 14(c0verup )
+## [+] ios 13 and 14(c0verup )
 
 https://github.com/ox1111/c0verup.git
 
 
-# [+] iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64)(Dopamine)
+## [+] iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64)(Dopamine)
 Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64).
 
 https://github.com/ox1111/Dopamine.git
 
-# [+]  iOS 11 to iOS 16
+## [+]  iOS 11 to iOS 16
 GeoSn0w's OpenJailbreak Project
 
 https://github.com/ox1111/OpenJailbreak.git
 
 
-# [+] ios16.0 to iOS 16.6.1
+## [+] ios16.0 to iOS 16.6.1
 * Def1nit3lyN0tAJa1lbr3akTool
 
   
