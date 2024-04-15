@@ -17,30 +17,73 @@ https://github.com/ox1111/socket.git
 ##  iOS 10.2.1(Saïgon)
 https://github.com/ox1111/saigon-v0rtex.git
 
+##  iOS 10.3.3
+https://github.com/ox1111/v0rtex.git
+
+https://speedr00t.tistory.com/903
+
+## iOS 11.0 - 12.2
+https://github.com/ox1111/Undecimus.git
+
 ## iOS 11.0 to 11.4.1(Blizzard Jailbreak)
 https://github.com/ox1111/Blizzard-Jailbreak.git
+
 
 ## [+]  iOS 11 to iOS 16
 GeoSn0w's OpenJailbreak Project
 
+## [+]  iOS 11.1.2(async_wake)
+https://github.com/ox1111/async_wake.git
+https://speedr00t.tistory.com/901
+
 https://github.com/ox1111/OpenJailbreak.git
 
+## [+]  iOS 12.0 through 12.1.2
+https://github.com/ox1111/Chaos-1.git
+
+https://speedr00t.tistory.com/869
+
 ## [+]  iOS 12.0 - 12.4.8
+https://speedr00t.tistory.com/871
+
 https://github.com/ox1111/rootlessJB4.git
 
 
 ## [+] iOS 12.0 -> 12.1.2 (OsirisJailbreak12) 
 * Incomplete Jailbreak with CVE-2019-6225
 
+https://speedr00t.tistory.com/913
+
 https://github.com/ox1111/OsirisJailbreak12.git
+
+## [+] iOS 12.1.2
+https://github.com/ox1111/voucher_swap-Exploit-for-iOS-12.1.2
+
+https://speedr00t.tistory.com/869
 
 ## [+] ios 13.x(oob_events)
 kernel exploit for Apple iOS 13.X
 https://github.com/ox1111/oob_events.git
 
+https://speedr00t.tistory.com/919
+
+
 ## [+] ios 13 and 14(c0verup )
 
 https://github.com/ox1111/c0verup.git
+
+##  iOS 13.5 (Tardy0n-Exploit )
+https://github.com/ox1111/Tardy0n-Exploit.git
+
+https://speedr00t.tistory.com/904
+
+##  iOS 13.7(FreeTheSandbox_LPE_POC_13.7)
+
+https://github.com/ox1111/FreeTheSandbox_LPE_POC_13.7.git
+
+https://speedr00t.tistory.com/905
+
+
 
 ## [+]  ios14.0-17.0
 A full featured bootstrap for ios14.0-17.0, A8-A17,M1+M2. (currently tested on ios15.0~ios17.0)
