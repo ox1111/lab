@@ -151,5 +151,23 @@ https://github.com/ox1111/magicalcatnyan.git
 ## dora2ios.github.io
 https://github.com/ox1111/dora2ios.github.io.git
 
+## bakera1n
+https://github.com/ox1111/bakera1n.git
+PongoOS폴더와
+ra1npoc폴더가 bakera1n에 종속
+
+https://github.com/ox1111/PongoOS/tree/b2d16ad3511e22a221b5c9155bd4c5c2c8e2f64e
+https://github.com/ox1111/ra1npoc.git
+못찾음 
+https://github.com/kok3shiDev/ra1npoc15/tree/3ea95f5f7ebe9748d29d4555c065ddfa0d11c9bb
+
+io(iousb) 폴더가 ra1npoc에 종속
+https://github.com/ox1111/iousb.git
+
+
+
+## pongoOS
+https://github.com/ox1111/PongoOS.git
+https://github.com/ox1111/newlib/tree/feaa8fcf90de497485b74e6f65fd78a58a27b9d7
 
 
