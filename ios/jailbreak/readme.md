@@ -8,6 +8,8 @@ https://github.com/ox1111/jailbreakme.git
 
 https://github.com/ox1111/wtfis.git
 
+## ios 10.x
+https://github.com/ox1111/socket.git
 
 ##  iOS 10.2.1(Saïgon)
 https://github.com/ox1111/saigon-v0rtex.git
