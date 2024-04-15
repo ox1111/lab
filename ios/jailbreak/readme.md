@@ -1,8 +1,17 @@
+## ios 1.0
+https://speedr00t.tistory.com/952
+
+
 ## ios 3.1.2 
 * 8.4.1 & 9.3 up to 9.3.3 & 11.3.1 (64-bit)
 * 3.1.2 up to 4.0.1 & 8.4.1 and 9.1 up to 9.3.4 (32-bit)
 
 https://github.com/ox1111/jailbreakme.git
+
+##  iOS 7.1.2
+
+https://speedr00t.tistory.com/946
+
 
 ##  iOS 8.0-8.4.1 64-bit(wtfis)
 
@@ -25,6 +34,9 @@ https://speedr00t.tistory.com/903
 ## iOS 11.0 - 12.2
 https://github.com/ox1111/Undecimus.git
 
+https://speedr00t.tistory.com/906
+
+
 ## iOS 11.0 to 11.4.1(Blizzard Jailbreak)
 https://github.com/ox1111/Blizzard-Jailbreak.git
 
@@ -32,11 +44,24 @@ https://github.com/ox1111/Blizzard-Jailbreak.git
 ## [+]  iOS 11 to iOS 16
 GeoSn0w's OpenJailbreak Project
 
+## [+]  iOS 11.0.3
+https://speedr00t.tistory.com/941
+
+
 ## [+]  iOS 11.1.2(async_wake)
 https://github.com/ox1111/async_wake.git
 https://speedr00t.tistory.com/901
 
 https://github.com/ox1111/OpenJailbreak.git
+
+
+## [+]  iOS 11.2.6
+https://github.com/ox1111/CVE-2018-4150.git
+
+https://speedr00t.tistory.com/916
+
+https://github.com/ox1111/LovelySn0w.git
+
 
 ## [+]  iOS 12.0 through 12.1.2
 https://github.com/ox1111/Chaos-1.git
@@ -54,12 +79,41 @@ https://github.com/ox1111/rootlessJB4.git
 
 https://speedr00t.tistory.com/913
 
+https://speedr00t.tistory.com/914
+
+https://speedr00t.tistory.com/911
+
 https://github.com/ox1111/OsirisJailbreak12.git
+
+https://github.com/ox1111/jailbreak-iOS12.git
+
 
 ## [+] iOS 12.1.2
 https://github.com/ox1111/voucher_swap-Exploit-for-iOS-12.1.2
 
 https://speedr00t.tistory.com/869
+
+
+https://speedr00t.tistory.com/917
+
+
+## [+] iOS 12.2
+https://speedr00t.tistory.com/918
+
+https://speedr00t.tistory.com/915
+
+https://github.com/ox1111/CVE-2019-6203-PoC.git
+
+https://speedr00t.tistory.com/912
+
+https://github.com/ox1111/lockdownd_playground.git
+
+https://speedr00t.tistory.com/910
+
+
+## [+] ios 12.4.9
+https://speedr00t.tistory.com/955
+
 
 ## [+] ios 13.x(oob_events)
 kernel exploit for Apple iOS 13.X
@@ -89,6 +143,10 @@ https://speedr00t.tistory.com/905
 A full featured bootstrap for ios14.0-17.0, A8-A17,M1+M2. (currently tested on ios15.0~ios17.0)
 
 https://github.com/ox1111/Bootstrap.git
+
+## [+]  ios14.2
+https://speedr00t.tistory.com/921
+
 
 ## [+] ios 14.3 ~ 14.5.1 (fugu14 )
 https://github.com/ox1111/Fugu14_zhuowei_ver.git
