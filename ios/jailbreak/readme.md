@@ -210,3 +210,7 @@ Drop-in replacement for system() in iOS programs
 https://github.com/ox1111/ios_system.git
 
 
+# patchfinder64
+https://github.com/ox1111/patchfinder64.git
+https://github.com/ox1111/kerneldec/tree/723458e8c69ac621f02e355b97b5de296d2c24f1
+
