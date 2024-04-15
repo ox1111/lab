@@ -115,3 +115,6 @@ WIP developer only iOS 15 jailbreak for checkm8 devices (Apple A8-A11)
 full rootfs r/w (fakefs), tweak injection etc...
 https://github.com/ox1111/ayakurume.git
 
+## libjbinit
+
+https://github.com/ox1111/libjbinit
