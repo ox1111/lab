@@ -31,6 +31,9 @@ https://github.com/ox1111/OpenJailbreak.git
 
 https://github.com/ox1111/OsirisJailbreak12.git
 
+## [+] ios 13.x(oob_events)
+kernel exploit for Apple iOS 13.X
+https://github.com/ox1111/oob_events.git
 
 ## [+] ios 13 and 14(c0verup )
 
