@@ -93,3 +93,6 @@ https://github.com/ox1111/launchapp.git
 
 ## get-cydia-deb
 https://github.com/ox1111/get-cydia-deb.git
+
+## SignTools
+https://github.com/ox1111/SignTools.git
