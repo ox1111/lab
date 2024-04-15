@@ -108,3 +108,10 @@ https://github.com/ox1111/CPBypass2.git
 
 ## ipwnder_lite
 https://github.com/ox1111/ipwnder_lite.git
+
+
+# ayakurume
+WIP developer only iOS 15 jailbreak for checkm8 devices (Apple A8-A11)
+full rootfs r/w (fakefs), tweak injection etc...
+https://github.com/ox1111/ayakurume.git
+
