@@ -25,6 +25,9 @@ GeoSn0w's OpenJailbreak Project
 
 https://github.com/ox1111/OpenJailbreak.git
 
+## [+]  iOS 12.0 - 12.4.8
+https://github.com/ox1111/rootlessJB4.git
+
 
 ## [+] iOS 12.0 -> 12.1.2 (OsirisJailbreak12) 
 * Incomplete Jailbreak with CVE-2019-6225
