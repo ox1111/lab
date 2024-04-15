@@ -103,9 +103,6 @@ https://github.com/ox1111/SignTools.git
 ## p0insettia
 https://github.com/ox1111/p0insettia
 
-## CPBypass2
-https://github.com/ox1111/CPBypass2.git
-
 ## ipwnder_lite
 https://github.com/ox1111/ipwnder_lite.git
 
@@ -118,3 +115,41 @@ https://github.com/ox1111/ayakurume.git
 ## libjbinit
 
 https://github.com/ox1111/libjbinit
+
+## A simple shsh get script
+https://github.com/ox1111/Nudaoaddu
+
+## iBoot32Patcher - A Universal 32-bit iBoot patcher for iPhone OS 2.0 --> iOS 10
+https://github.com/ox1111/iBoot32Patcher.git
+
+## ramdiskF_maker
+for 32-bit iboot bug on ios 7
+https://github.com/ox1111/ramdiskF_maker.git
+
+## xpwn
+A cross-platform custom NOR firmware loader and custom IPSW generator for the iPhone
+https://github.com/ox1111/xpwn.git
+
+## File detection bypass for iOS
+
+https://github.com/ox1111/CPBypass-public.git
+
+https://github.com/ox1111/CPBypass2.git
+
+## daibutsuCFW
+https://github.com/ox1111/daibutsuCFW.git
+
+## t8015_bootkit
+https://github.com/ox1111/t8015_bootkit.git
+
+## t801x(iPhone 8(+)/iPhone 7(+)) fakerootfs + homebutton with palera1n
+https://github.com/ox1111/t8015_fakerootfs_homebutton.git
+
+## magicalcatnyan
+https://github.com/ox1111/magicalcatnyan.git
+
+## dora2ios.github.io
+https://github.com/ox1111/dora2ios.github.io.git
+
+
+
