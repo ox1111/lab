@@ -8,6 +8,9 @@ https://github.com/ox1111/jailbreakme.git
 
 https://github.com/ox1111/wtfis.git
 
+# iOS-9.3.5
+https://github.com/ox1111/32-bit-only-iOS-9.3.5-Jailbreak.git
+
 ## ios 10.x
 https://github.com/ox1111/socket.git
 
@@ -33,6 +36,9 @@ https://github.com/ox1111/c0verup.git
 * Jailbreak for A8 through A11, T2 devices, on iOS/iPadOS/tvOS 15.0, bridgeOS 5.0 and higher.
 
 https://github.com/ox1111/palera1n.git
+
+# [+] ios 15.1 , 15.4.1 (fugu15)
+https://github.com/ox1111/Fugu15.git
 
 ## iOS 15.0 - 16.3 (bakera1n)
 https://github.com/ox1111/bakera1n.git
