@@ -8,7 +8,7 @@ https://github.com/ox1111/jailbreakme.git
 
 https://github.com/ox1111/wtfis.git
 
-# iOS-9.3.5
+## iOS-9.3.5
 https://github.com/ox1111/32-bit-only-iOS-9.3.5-Jailbreak.git
 
 ## ios 10.x
@@ -19,6 +19,11 @@ https://github.com/ox1111/saigon-v0rtex.git
 
 ## iOS 11.0 to 11.4.1(Blizzard Jailbreak)
 https://github.com/ox1111/Blizzard-Jailbreak.git
+
+## [+]  iOS 11 to iOS 16
+GeoSn0w's OpenJailbreak Project
+
+https://github.com/ox1111/OpenJailbreak.git
 
 
 ## [+] iOS 12.0 -> 12.1.2 (OsirisJailbreak12) 
@@ -31,6 +36,8 @@ https://github.com/ox1111/OsirisJailbreak12.git
 
 https://github.com/ox1111/c0verup.git
 
+## [+] ios 14.3 ~ 14.5.1 (fugu14 )
+https://github.com/ox1111/Fugu14_zhuowei_ver.git
 
 ## [+] iOS 15.0(palera1n)
 * Jailbreak for A8 through A11, T2 devices, on iOS/iPadOS/tvOS 15.0, bridgeOS 5.0 and higher.
@@ -47,11 +54,6 @@ https://github.com/ox1111/bakera1n.git
 Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64).
 
 https://github.com/ox1111/Dopamine.git
-
-## [+]  iOS 11 to iOS 16
-GeoSn0w's OpenJailbreak Project
-
-https://github.com/ox1111/OpenJailbreak.git
 
 
 ## [+] ios16.0 to iOS 16.6.1
