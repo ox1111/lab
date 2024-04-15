@@ -54,6 +54,10 @@ https://github.com/ox1111/v0rtex.git
 
 https://speedr00t.tistory.com/903
 
+## iOS 11.0 - 12.5.6 (Th0r_Freya)->ips
+
+https://github.com/pwned4ever/Th0r_Freya
+
 ## iOS 11.0 - 12.4(Undecimus)-컴파일 성공
 https://github.com/ox1111/Undecimus.git
 
