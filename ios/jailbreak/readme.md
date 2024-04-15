@@ -54,7 +54,7 @@ https://github.com/ox1111/v0rtex.git
 
 https://speedr00t.tistory.com/903
 
-## iOS 11.0 - 12.2
+## iOS 11.0 - 12.2(Undecimus)-컴파일 성공
 https://github.com/ox1111/Undecimus.git
 
 https://speedr00t.tistory.com/906
@@ -73,6 +73,7 @@ https://speedr00t.tistory.com/941
 
 ## [+]  iOS 11.1.2(async_wake)
 https://github.com/ox1111/async_wake.git
+
 https://speedr00t.tistory.com/901
 
 https://github.com/ox1111/OpenJailbreak.git
