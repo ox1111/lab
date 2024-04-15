@@ -53,3 +53,7 @@ Tested on:
   - iOS 16.5
 
 https://github.com/ox1111/Def1nit3lyN0tAJa1lbr3akTool.git
+
+## TrollStore
+
+https://github.com/ox1111/TrollStore.git
