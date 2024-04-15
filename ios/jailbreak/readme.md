@@ -1,3 +1,8 @@
+##  iOS 8.0-8.4.1 64-bit(wtfis)
+
+https://github.com/ox1111/wtfis.git
+
+
 ##  iOS 10.2.1(Saïgon)
 https://github.com/ox1111/saigon-v0rtex.git
 
