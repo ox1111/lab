@@ -1,3 +1,9 @@
+## ios 3.1.2 
+* 8.4.1 & 9.3 up to 9.3.3 & 11.3.1 (64-bit)
+* 3.1.2 up to 4.0.1 & 8.4.1 and 9.1 up to 9.3.4 (32-bit)
+
+https://github.com/ox1111/jailbreakme.git
+
 ##  iOS 8.0-8.4.1 64-bit(wtfis)
 
 https://github.com/ox1111/wtfis.git
