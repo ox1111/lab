@@ -98,3 +98,7 @@ https://github.com/ox1111/get-cydia-deb.git
 
 ## SignTools
 https://github.com/ox1111/SignTools.git
+
+
+## CPBypass2
+https://github.com/ox1111/CPBypass2.git
