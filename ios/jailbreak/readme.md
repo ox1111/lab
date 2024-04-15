@@ -13,7 +13,7 @@ https://github.com/ox1111/OsirisJailbreak12.git
 https://github.com/ox1111/c0verup.git
 
 
-# [+] iOS 15.0(palera1n)
+## [+] iOS 15.0(palera1n)
 * Jailbreak for A8 through A11, T2 devices, on iOS/iPadOS/tvOS 15.0, bridgeOS 5.0 and higher.
 
 https://github.com/ox1111/palera1n.git
@@ -67,3 +67,6 @@ https://github.com/ox1111/Def1nit3lyN0tAJa1lbr3akTool.git
 ## TrollStore
 
 https://github.com/ox1111/TrollStore.git
+
+
+## iOS 앱 리버스 엔지니어링-Cydia 탈옥-Tweaks 플러그인 개발
