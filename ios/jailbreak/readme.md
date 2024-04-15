@@ -77,3 +77,5 @@ https://github.com/ox1111/Cydia-1.git
 ## Launch iOS applications from the command line (jailbreak only).
 https://github.com/ox1111/launchapp.git
 
+## get-cydia-deb
+https://github.com/ox1111/get-cydia-deb.git
