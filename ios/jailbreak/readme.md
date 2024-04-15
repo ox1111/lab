@@ -39,6 +39,11 @@ https://github.com/ox1111/oob_events.git
 
 https://github.com/ox1111/c0verup.git
 
+## [+]  ios14.0-17.0
+A full featured bootstrap for ios14.0-17.0, A8-A17,M1+M2. (currently tested on ios15.0~ios17.0)
+
+https://github.com/ox1111/Bootstrap.git
+
 ## [+] ios 14.3 ~ 14.5.1 (fugu14 )
 https://github.com/ox1111/Fugu14_zhuowei_ver.git
 
@@ -189,5 +194,16 @@ https://github.com/ox1111/iousb.git
 ## pongoOS
 https://github.com/ox1111/PongoOS.git
 https://github.com/ox1111/newlib/tree/feaa8fcf90de497485b74e6f65fd78a58a27b9d7
+
+
+## Apple File Conduit afc2d  (ios 11+ )
+AFC는 모든 arm64 디바이스에 대해 USB를 통한 전체 파일 시스템 액세스를 허용
+https://github.com/ox1111/afc2d-arm64.git
+
+
+## ios_system
+Drop-in replacement for system() in iOS programs
+
+https://github.com/ox1111/ios_system.git
 
 
