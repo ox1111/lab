@@ -9,6 +9,11 @@ https://github.com/ox1111/OsirisJailbreak12.git
 https://github.com/ox1111/c0verup.git
 
 
+# [+] iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64)(Dopamine)
+Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64).
+
+https://github.com/ox1111/Dopamine.git
+
 # [+] ios16.0 to iOS 16.6.1
 * Def1nit3lyN0tAJa1lbr3akTool
 
