@@ -61,6 +61,9 @@ https://github.com/ox1111/Th0r_Freya.git
 ## iOS 11.0 - 12.4(Undecimus)-컴파일 성공
 https://github.com/ox1111/Undecimus.git
 
+git clone --recursive https://github.com/ox1111/Undecimus.git
+
+
 https://speedr00t.tistory.com/906
 
 
