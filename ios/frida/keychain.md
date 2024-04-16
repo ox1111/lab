@@ -62,8 +62,6 @@ security find-certificate -p -c frida-cert | openssl x509 -checkend 0
 ```
 이렇게 하면 코드 서명용 frida-cert 인증서 생성이 완료됩니다. 
 
-다음 단계로 이 인증서를 항상 신뢰하도록 설정해주면 
-Frida에서 코드 서명 시 사용할 수 있습니다.
 
 ## [+] frida 받고 빌드하기
 
