@@ -1,6 +1,10 @@
 # frida-cert 인증서를 생성하려면 다음 단계를 따르면 됩니다.
 
 ## Keychain Access 애플리케이션 실행 
+
+
+![1번 이미지](./1.png)
+
 ```
 (/Applications/Utilities/Keychain Access.app)
 메뉴에서 Keychain Access > Certificate Assistant >
