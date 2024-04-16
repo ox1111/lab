@@ -37,6 +37,9 @@ login 키체인에 우선 생성한 뒤 익스포트 후 System 키체인으로 
 ```
 security find-certificate -c frida-cert
 ```
+![4.1번 이미지](./4.1.png)
+
+
 출력 결과에 "/Library/Keychains/System.keychain"이 보여야 함.
 아래 명령어로 인증서 만료일 확인:
 
