@@ -74,6 +74,8 @@ cd frida
 ```
 export MACOS_CERTID=frida-cert
 ```
+
+* ios만 컴파일 하려면 이것만 설정
 ```
 export IOS_CERTID=frida-cert
 ```
@@ -102,4 +104,11 @@ brew install node
 ```
 make core-ios
 ```
+
+컴파일 중간에 관리자 암호 풀어본다.
+![1.3번 이미지](./1.3.png)
+
 ![6번 이미지](./6.png)
+
+
+
