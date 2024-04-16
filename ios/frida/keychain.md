@@ -52,13 +52,17 @@ security find-certificate -p -c frida-cert | openssl x509 -checkend 0
 
 ```
 git clone https://github.com/frida/frida.git
+```
+```
 cd frida
-
+```
+```
 export MACOS_CERTID=frida-cert
 export IOS_CERTID=frida-cert
 export WATCHOS_CERTID=frida-cert
 export WATCHOS_CERTID=frida-cert
-
+```
+```
 make
 ```
 ![5번 이미지](./5.png)
