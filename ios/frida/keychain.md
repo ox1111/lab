@@ -13,11 +13,17 @@ Create a Certificate... 선택
 ![2번 이미지](./2.png)
 
 인증서 생성 화면에서 아래 정보 입력:
+
 ```
 Name: frida-cert
 Identity Type: Self Signed Root
 Certificate Type: Code Signing
 좌측 하단의 Override defaults 체크
+```
+![3번 이미지](./3.png)
+
+
+```
 Continue 버튼을 여러번 클릭하면 "Specify a Location For The Certificate" 화면이 나옴. 
 여기서 Keychain을 System으로 설정.
 ```
