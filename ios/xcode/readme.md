@@ -104,6 +104,7 @@ of course it also works for macOS SDKs
 
 Thanks to :
 https://developer.apple.com/forums/thread/43381 
+
 https://stackoverflow.com/questions/1480184/how-do-i-determine-which-ios-sdk-i-have/19377753#19377753
 
 
@@ -116,8 +117,11 @@ Need to set the min sdk for the device too
 For macOS to get 13.sdk back:
 
 Download Xcode 14.3.1
+
 unxip it
+
 cp -a Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+
 unxip Xcode_14.3.1.xip && cp -a Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
@@ -128,8 +132,11 @@ unxip Xcode_14.3.1.xip && cp -a Xcode.app/Contents/Developer/Platforms/MacOSX.pl
 For macOS to get 13.sdk back:
 
 Download Xcode 14.3.1
+
 unxip it
+
 cp -a Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+
 unxip Xcode_14.3.1.xip && cp -a Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk 
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
