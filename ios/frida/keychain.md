@@ -1,5 +1,7 @@
 #  m1 macbook에서 ios용 frida 컴파일해보기
 
+아들 교육용
+
 ## [+] frida-cert 인증서를 생성
 
 ### Keychain Access 애플리케이션 실행 
