@@ -64,4 +64,8 @@ make
 ```
 brew install node
 ```
+
+```
+make core-ios
+```
 ![6번 이미지](./6.png)
