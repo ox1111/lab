@@ -45,6 +45,6 @@ export WATCHOS_CERTID=frida-cert
 
 make
 ```
-
+![5번 이미지](./5.png)
 
 
