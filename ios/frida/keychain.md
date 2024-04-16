@@ -2,6 +2,10 @@
 
 아들 교육용
 
+## 참고 PermissionsDarwin
+https://sourceware.org/gdb/wiki/PermissionsDarwin
+
+
 ## [+] frida-cert 인증서를 생성
 
 ### Keychain Access 애플리케이션 실행 
