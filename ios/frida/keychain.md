@@ -9,6 +9,7 @@
 (/Applications/Utilities/Keychain Access.app)
 메뉴에서 Keychain Access > Certificate Assistant >
 Create a Certificate... 선택
+![2번 이미지](./2.png)
 ```
 인증서 생성 화면에서 아래 정보 입력:
 ```
