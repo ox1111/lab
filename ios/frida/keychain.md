@@ -84,9 +84,12 @@ export WATCHOS_CERTID=frida-cert
 ```
 export WATCHOS_CERTID=frida-cert
 ```
+
 ```
 make
 ```
+![1.2번 이미지](./1.2.png)
+
 ![5번 이미지](./5.png)
 
 ### nodejs 설치
