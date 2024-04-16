@@ -27,6 +27,7 @@ Certificate Type: Code Signing
 Continue 버튼을 여러번 클릭하면 "Specify a Location For The Certificate" 화면이 나옴. 
 여기서 Keychain을 System으로 설정.
 ```
+![4번 이미지](./4.png)
  
 💡 만약 System 키체인에 인증서를 저장할 수 없다면, 
 login 키체인에 우선 생성한 뒤 익스포트 후 System 키체인으로 임포트하는 방법도 있음.
