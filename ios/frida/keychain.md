@@ -106,9 +106,36 @@ make core-ios
 ```
 
 컴파일 중간에 관리자 암호 풀어본다.
+
 ![1.3번 이미지](./1.3.png)
 
 ![6번 이미지](./6.png)
+
+```
+ninja: no work to do.
+Installing lib/base/libfrida-base-1.0.a to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/lib
+Installing lib/base/frida-base.h to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/include/frida-1.0
+Installing lib/base/frida-base-1.0.vapi to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/share/vala/vapi
+Installing lib/payload/libfrida-payload-1.0.a to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/lib
+Installing lib/payload/frida-payload.h to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/include/frida-1.0
+Installing lib/payload/frida-payload-1.0.vapi to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/share/vala/vapi
+Installing lib/agent/frida-agent.dylib to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/lib/frida
+Installing lib/gadget/frida-gadget.dylib to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/lib/frida
+Installing src/frida-helper to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/lib/frida
+Installing src/api/frida-core.h to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/include/frida-1.0
+Installing src/api/Frida-1.0.gir to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/share/gir-1.0
+Installing src/api/frida-core-1.0.vapi to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/share/vala/vapi
+Installing src/api/frida-core-1.0.deps to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/share/vala/vapi
+Installing src/api/libfrida-core-1.0.a to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/lib
+Installing server/frida-server to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/bin
+Installing portal/frida-portal to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/bin
+Installing inject/frida-inject to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/bin
+Installing /Users/hacker/Downloads/a_fugu14/frida/build/tmp-ios-arm64/frida-core/meson-private/frida-base-1.0.pc to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/lib/pkgconfig
+Installing /Users/hacker/Downloads/a_fugu14/frida/build/tmp-ios-arm64/frida-core/meson-private/frida-payload-1.0.pc to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/lib/pkgconfig
+Installing /Users/hacker/Downloads/a_fugu14/frida/build/tmp-ios-arm64/frida-core/meson-private/frida-core-1.0.pc to /Users/hacker/Downloads/a_fugu14/frida/build/frida-ios-arm64/usr/lib/pkgconfig
+hacker@blackfalconui-MacBookAir frida % 
+
+```
 
 
 
