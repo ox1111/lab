@@ -184,6 +184,9 @@ https://github.com/ox1111/Fugu14_zhuowei_ver.git
 
 https://github.com/ox1111/palera1n.git
 
+## [+] iOS 15.0( fugu15 rootful)
+https://github.com/ox1111/Fugu15_Rootful.git
+
 # [+] ios 15.1 , 15.4.1 (fugu15)
 https://github.com/ox1111/Fugu15.git
 
