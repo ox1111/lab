@@ -51,3 +51,4 @@ make
 ```
 brew install node
 ```
+![6번 이미지](./6.png)
