@@ -50,6 +50,20 @@ https://www.procurs.us/pool/main/iphoneos-arm64-rootless/1900/shell-cmds/
 
 https://strap.palera.in/pool/main/iphoneos-arm64/2000/
 
+## Packages
+
+http://cydia.zodttd.com/repo/cydia/dists/stable/Release
+
+http://cydia.zodttd.com/repo/cydia/dists/stable/Release/main/binary-iphoneos-arm/Packages.bz2
+
+http://cydia.zodttd.com/repo/cydia/dists/stable/main/binary-iphoneos-arm/Packages.bz2
+
+http://apt.saurik.com/dists/ios/1240.10/main/binary-iphoneos-arm/Packages.bz2
+
+http://apt.saurik.com/dists/ios/1240.00/main/binary-iphoneos-arm/Packages.bz2
+
+
+
 ## DebFounder
 https://github.com/ox1111/DebFounder.git
 
