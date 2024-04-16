@@ -48,3 +48,6 @@ make
 ![5번 이미지](./5.png)
 
 
+```
+brew install node
+```
