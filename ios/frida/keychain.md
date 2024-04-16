@@ -45,6 +45,7 @@ login 키체인에 우선 생성한 뒤 익스포트 후 System 키체인으로 
 터미널에서 아래 명령어로 인증서가 잘 생성되었는지 확인:
 
 ### 인증서 확인
+출력 결과에 "/Library/Keychains/System.keychain"이 보여야 함.
 
 ```
 security find-certificate -c frida-cert
@@ -54,14 +55,15 @@ security find-certificate -c frida-cert
 
 ### 인증서 만료일 확인
 
-출력 결과에 "/Library/Keychains/System.keychain"이 보여야 함.
-아래 명령어로 인증서 만료일 확인:
+아래 명려엉로 인증서 만료일 확인:
 
 ```
 security find-certificate -p -c frida-cert | openssl x509 -checkend 0
 ```
 이렇게 하면 코드 서명용 frida-cert 인증서 생성이 완료됩니다. 
-다음 단계로 이 인증서를 항상 신뢰하도록 설정해주면 Frida에서 코드 서명 시 사용할 수 있습니다.
+
+다음 단계로 이 인증서를 항상 신뢰하도록 설정해주면 
+Frida에서 코드 서명 시 사용할 수 있습니다.
 
 ## [+] frida 받고 빌드하기
 
