@@ -58,8 +58,15 @@ cd frida
 ```
 ```
 export MACOS_CERTID=frida-cert
+```
+```
 export IOS_CERTID=frida-cert
+```
+
+```
 export WATCHOS_CERTID=frida-cert
+```
+```
 export WATCHOS_CERTID=frida-cert
 ```
 ```
