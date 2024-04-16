@@ -1,4 +1,4 @@
-# macos에서(m1) ios용 frida 컴파일 해보기
+#  m1 macbook에서 ios용 frida 컴파일해보기
 
 ## [+] frida-cert 인증서를 생성
 
