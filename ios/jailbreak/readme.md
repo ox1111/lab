@@ -198,6 +198,13 @@ https://github.com/ox1111/Fugu15.git
 ## iOS 15.0 - 16.3 (bakera1n)
 https://github.com/ox1111/bakera1n.git
 
+## iOS 15.1.1 
+
+안정적으로 15.1.1 커널 읽고 쓰기
+
+https://github.com/ox1111/desc_race-fun_public.git
+
+
 ## [+] iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64)(Dopamine)
 Rootless arm64e jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64).
 
