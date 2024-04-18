@@ -298,12 +298,22 @@ https://github.com/ox1111/Def1nit3lyN0tAJa1lbr3akTool.git
 
 # all 64bit ios
 
-https://github.com/ox1111/ra1nsn0w.git
-
 64비트 iOS 기기를 위한 테더링 부터 :D
 
 지금은 아이부트 패치만 할 수 있지만, 향후 릴리스에서는 커널 패치와 커스텀 램디스크 부팅도 가능해질 예정입니다.)
 
+https://github.com/ox1111/ra1nsn0w.git
+
+
+이전 게시물
+방금 iBoot64패처를 푸시했습니다
+
+최신 liboffsetfinder로 빌드하는 방법을 알아낼 수 있다면 iBSS / iBEC를 패치하고 사용자 정의 bootarg를 설정할 수 있어야합니다 (물론 테스트되지 않음 ㅋㅋ).
+
+시험이 끝나면 많은 정리를 할 것입니다.
+
+
+https://github.com/ox1111/iBoot64Patcher.git
 
 
 ## TrollStore
