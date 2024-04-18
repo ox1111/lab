@@ -205,6 +205,16 @@ https://github.com/ox1111/Fugu14_zhuowei_ver.git
 
 https://github.com/ox1111/Fugu14_zhuowei_ver/blob/d152c6116fd17a7f617e83447d320983ebd71da6/arm/shared/KernelExploit/Sources/KernelExploit/MemoryAccess.swift#L102
 
+## [+]  all iOS 15
+
+iOS booter ramdisk creator for checkm8 based jailbreaks
+
+Tested on iOS 15.1, should work on all iOS 15
+
+https://github.com/ox1111/jbinit.git
+
+
+
 ## [+] iOS 15.0(palera1n)
 * Jailbreak for A8 through A11, T2 devices, on iOS/iPadOS/tvOS 15.0, bridgeOS 5.0 and higher.
 
