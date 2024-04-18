@@ -190,19 +190,38 @@ https://github.com/ox1111/Fugu14_zhuowei_ver/blob/d152c6116fd17a7f617e83447d3209
 https://github.com/ox1111/palera1n.git
 
 ## [+] iOS 15.0( fugu15 rootful)
+
+iPhone Xs Max: iOS 15.4.1
+
+iPhone 13 Pro: iOS 15.1
+
+
 https://github.com/ox1111/Fugu15_Rootful.git
 
 # [+] ios 15.1 , 15.4.1 (fugu15)
-https://github.com/ox1111/Fugu15.git
 
-## iOS 15.0 - 16.3 (bakera1n)
-https://github.com/ox1111/bakera1n.git
+iPhone Xs Max: iOS 15.4.1
+
+iPhone 11 (SRD): iOS 15.4.1
+
+iPhone 12 (SRD): iOS 15.4.1
+
+iPhone 12 Pro Max: iOS 15.4.1
+
+iPhone 13: iOS 15.1 (offline edition - see bugs below [WiFi bug])
+
+
+https://github.com/ox1111/Fugu15.git
 
 ## iOS 15.1.1 
 
 안정적으로 15.1.1 커널 읽고 쓰기
 
 https://github.com/ox1111/desc_race-fun_public.git
+
+## iOS 15.0 - 16.3 (bakera1n)
+https://github.com/ox1111/bakera1n.git
+
 
 
 ## [+] iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64)(Dopamine)
