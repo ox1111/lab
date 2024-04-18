@@ -19,3 +19,15 @@ https://github.com/ox1111/trustcache
 ###   Link Identity Editor. Put real or fake signatures in a Mach-O.
 
 https://github.com/ox1111/ldid.git
+
+## [ img4tool v2 ]
+
+Releasing img4tool v2!
+
+A complete rewrite of the original img4tool with more features and improvements.
+
+You can now install the libimg4tool library for easier including in your projects :D
+
+Check it out now!
+
+https://github.com/ox1111/img4tool.git
