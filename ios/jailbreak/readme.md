@@ -46,6 +46,13 @@ https://github.com/ox1111/32-bit-only-iOS-9.3.5-Jailbreak.git
 ## ios 10.x
 https://github.com/ox1111/socket.git
 
+## ios 10.x
+
+Jailbreak for iOS 10.x 64bit devices without KTRR
+
+https://github.com/ox1111/doubleH3lix.git
+
+
 ##  iOS 10.2.1(Saïgon)
 https://github.com/ox1111/saigon-v0rtex.git
 
