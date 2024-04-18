@@ -214,6 +214,19 @@ Tested on iOS 15.1, should work on all iOS 15
 https://github.com/ox1111/jbinit.git
 
 
+I guess i can't help but tease you a bit more :P
+
+Here are the patches i used on my iPhone8 to boot into iOS 15.1 jb
+
+- remove passcode
+- 
+- kernelpatches may be incomplete (i didn't test tweaks, just sileo)
+- 
+
+https://gist.github.com/ox1111/bd7c4fdca7e4db8c423fcd407665d0ee
+
+
+
 
 ## [+] iOS 15.0(palera1n)
 * Jailbreak for A8 through A11, T2 devices, on iOS/iPadOS/tvOS 15.0, bridgeOS 5.0 and higher.
