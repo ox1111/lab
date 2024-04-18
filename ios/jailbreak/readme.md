@@ -1,3 +1,12 @@
+## Apple watch S3 watchOS 4.1
+
+A developer jailbreak for Apple watch S3 watchOS 4.1
+
+Running this on an apple watch series 3 on watchOS 4.1 will:
+
+https://github.com/ox1111/jelbrekTime.git
+
+
 ## ios 1.0
 https://speedr00t.tistory.com/952
 
