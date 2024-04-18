@@ -295,6 +295,17 @@ Tested on:
 
 https://github.com/ox1111/Def1nit3lyN0tAJa1lbr3akTool.git
 
+
+# all 64bit ios
+
+https://github.com/ox1111/ra1nsn0w.git
+
+64비트 iOS 기기를 위한 테더링 부터 :D
+
+지금은 아이부트 패치만 할 수 있지만, 향후 릴리스에서는 커널 패치와 커스텀 램디스크 부팅도 가능해질 예정입니다.)
+
+
+
 ## TrollStore
 
 https://github.com/ox1111/TrollStore.git
