@@ -11,6 +11,8 @@ https://download.developer.apple.com/Developer_Tools/Xcode_8.2/Xcode_8.2.xip
 
 https://download.developer.apple.com/Developer_Tools/Xcode_12.2/Xcode_12.2.xip
 
+https://download.developer.apple.com/Developer_Tools/Xcode_12.3/Xcode_12.3.xip
+
 https://download.developer.apple.com/Developer_Tools/Xcode_13.5/Xcode_13.5.xip
 
 
