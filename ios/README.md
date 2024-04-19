@@ -18,6 +18,10 @@ https://github.com/ox1111/trustcache
 ## [ ldid ]
 ###   Link Identity Editor. Put real or fake signatures in a Mach-O.
 
+Link Identity Editor는 Mach-O 파일에 실제 또는 가짜 서명을 삽입하는 도구입니다.
+
+
+
 https://github.com/ox1111/ldid.git
 
 ## [ img4tool v2 ]
