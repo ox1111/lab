@@ -33,7 +33,4 @@
 ## [libSandy](https://github.com/ox1111/libSandy.git)
 - 탈옥한 iOS에서 애플리케이션 및 시스템 프로세스의 샌드박스를 안전하게 확장할 수 있는 개발자 라이브러리
 
-## [cat /etc/passwd](https://github.com/ox1111/cat-etc-passwd.git)
-- UNIX 시스템에서 사용자 계정 정보를 저장하는 /etc/passwd 파일을 읽어오는 도구
-- 사용자 이름, UID, GID, 홈 디렉토리, 기본 셸 등의 정보를 확인할 수 있음
-- 시스템 관리 및 보안 감사 목적으로 활용됨
+
