@@ -66,3 +66,12 @@ https://github.com/ox1111/ChOma.git
 https://github.com/ox1111/XPF.git
 
 
+## [ libSandy ]
+
+libSandy는 개발자가 탈옥한 iOS에서 애플리케이션 및 
+시스템 프로세스의 샌드박스를 안전한 방식으로 확장할 수 있는 개발자 라이브러리입니다.
+
+
+
+https://github.com/ox1111/libSandy.git
+
