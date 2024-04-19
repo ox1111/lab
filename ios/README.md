@@ -52,3 +52,12 @@ trust cache 에 없으면 프로세스가 충돌합니다.
 
 
 https://github.com/ox1111/opainject.git
+
+## [ ChOma ]
+
+MachO/FAT 파일의 코드 서명을 조작하기 위한 C 라이브러리
+
+https://github.com/ox1111/ChOma.git
+
+
+
