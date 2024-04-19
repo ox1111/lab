@@ -16,6 +16,9 @@ https://download.developer.apple.com/Developer_Tools/Xcode_12.3/Xcode_12.3.xip
 https://download.developer.apple.com/Developer_Tools/Xcode_13.5/Xcode_13.5.xip
 
 
+### swift 다운로드
+
+https://www.swift.org/download/
 
 
 # Use previous/older SDKs with Xcode
