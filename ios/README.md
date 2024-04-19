@@ -31,3 +31,24 @@ You can now install the libimg4tool library for easier including in your project
 Check it out now!
 
 https://github.com/ox1111/img4tool.git
+
+
+## [ opainject ]
+iOS 도구를 사용하여 셸코드와 
+
+ROP 방법을 모두 사용하여 프로세스에 딜립을 주입할 수 있습니다. 
+
+(기본적으로 ROP 방법이 사용되며 모든 면에서 셸코드 방법보다 우수하지만 
+
+셸코드 방법으로 시작했기해서  그대로 두기로 결정했습니다).
+
+iOS 14, 15, 16, 17에서 테스트했습니다. 
+
+이론적으로는 11.0 이상에서 작동해야 합니다. 
+
+arm64e 디바이스에서는 dylib가 인젝션되지만 
+
+트러스트 캐시에 없으면 프로세스가 충돌합니다.
+
+
+https://github.com/ox1111/opainject.git
