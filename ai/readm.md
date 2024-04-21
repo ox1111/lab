@@ -1,3 +1,6 @@
+## claude
+[claude](https://claude.ai/)
+
 ## cody
 ### Claude 3 is now available for all Cody users
 
