@@ -1,3 +1,5 @@
+악용시 본인책임
+
 
 ## Seed-RSA-Crypt
 [Seed-RSA-Crypt](https://github.com/ox1111/Seed-RSA-Crypt.git)
