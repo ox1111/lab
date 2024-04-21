@@ -1,6 +1,10 @@
 ## claude3
 [claude](https://claude.ai/)
 
+## ChatGPT
+
+[ChatGPT](https://chat.openai.com/#pricing)
+
 ## cody
 ### Claude 3 is now available for all Cody users
 
