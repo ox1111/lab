@@ -1,5 +1,5 @@
 
-![1번 이미지](./KIM.png)
+![1번 이미지](./KIM.PNG)
 ## Seed-RSA-Crypt
 [Seed-RSA-Crypt](https://github.com/ox1111/Seed-RSA-Crypt.git)
 
