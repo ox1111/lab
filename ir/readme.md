@@ -63,5 +63,7 @@
 
 ## 13
 
+### 제로보드 익스프레스 엔진 1.5.2.4 웹셀코드 삽입 취약점 
+
 [![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbweHcf%2FbtqK6eSPMNt%2FKYSWompymC2QDcqT7EmWF1%2Fimg.jpg)](https://www.boannews.com/media/view.asp?idx=31328&page=1909&kind=3)
 
