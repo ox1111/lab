@@ -4,11 +4,11 @@
 
 ■  The one and only arrow that pierces through everything.
 ```
-■  개발 프로젝트 Macro 자동화 만들기
+▼  개발 프로젝트 Macro 자동화 만들기
 
-■  단기 목표 : 아들에게 용돈 자동으로 이체하기.
+▼  단기 목표 : 아들에게 용돈 자동으로 이체하기.
 
-■  app 띄워보기
+▼  app 띄워보기
 
 ```
 
