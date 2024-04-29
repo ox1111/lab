@@ -25,7 +25,7 @@
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbl7TC6%2FbtqK2YDaYbO%2FakPHIxLyZhJNyVkfkHw331%2Fimg.jpg)
 
 ## 솔루션
-[](https://www.youtube.com/watch?v=mz41Nte44hg)
+[apk 자동 분석 기능](https://www.youtube.com/watch?v=mz41Nte44hg)
 
 # 대외활동
 
