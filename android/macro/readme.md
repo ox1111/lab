@@ -1,5 +1,82 @@
-## kdb 산업은행
+## 신세계
 
+### Shinsegae mall(7.4.5)
+
+- com.shinsegae.mobile.froyo
+  
+[com.shinsegae.mobile.froyo](https://www.youtube.com/watch?v=SNUiaebR2zc)
+
+## 헤이영
+
+###  헤이영 캠퍼스 - 대학생활 필수 통합 앱(1.2.4)
+
+- com.shinhan.heyoung
+  
+[com.shinhan.heyoung](https://www.youtube.com/watch?v=8NViD2o1RvA)
+
+## 서울시청
+
+### 서울Pay+ (서울페이 서울페이플러스 서울사랑상품권)(1.2.7)
+
+- com.shinhancard.localpayplatform 띄워보기 
+
+[com.shinhancard.localpayplatform](https://www.youtube.com/watch?v=H1wey7PiTXQ)
+
+## 현대
+
+### HyundaiDepartmentStoreDutyFree(2.38)
+
+- com.ehyundai.HyunDaiDutyFreeShop
+- 
+
+[com.ehyundai.HyunDaiDutyFreeShop](https://www.youtube.com/watch?v=vGFV_Hnz5Sw)
+
+### 현대카드 DIVE(1.0.70)
+
+- com.hyundaicard.cultureapp
+[com.hyundaicard.cultureapp](https://www.youtube.com/watch?v=ACsac1jVCAo)
+
+
+### H-Cafeteria  현대그린푸드(3.0.3)
+
+- com.ehyundai.greenfood
+  
+[com.ehyundai.greenfood ](https://www.youtube.com/watch?v=nt3w4u57naE)
+
+
+###  Hyundai Financiamentos(1.6.2023052619)]
+
+[com.hyundai.portalcliente ](https://www.youtube.com/watch?v=tqZDw7Qr9zc)
+
+### myHyundai (India)(1.0.3)
+
+- com.hmil.myhyundai
+- 
+[com.hmil.myhyundai ](https://www.youtube.com/watch?v=rZNeORH6seE)
+
+
+###  현대백화점 모바일카드(3.3.7)
+
+- com.ehyundai.mcard
+- 
+[com.ehyundai.mcard ](https://www.youtube.com/watch?v=lL0mhl-V3ig)
+
+### Hyundai Mobility(1.2.28)
+
+- br.com.joycar.app.hyundai
+  
+[br.com.joycar.app.hyundai ](https://www.youtube.com/watch?v=AJJbi61Lm5g)
+
+### myHyundai)(2.0.3)
+[com.hyundai.myhyundai](https://www.youtube.com/watch?v=ZuEfVQKJO0w)
+
+### 현대백화점 H.Point(3.0.23)
+
+-  kr.co.hpoint.hdgm 띄워보기 
+
+[ kr.co.hpoint.hdgm](https://www.youtube.com/watch?v=uSPe2RF0EiA)
+
+## kdb 산업은행
 
 ### KDB산업은행 「스마트KDB」(4.5.0) (feat Dynamic functions)
 
@@ -8,6 +85,72 @@
 [co.kr.kdb.android.smartkdb](https://www.youtube.com/watch?v=TfGe4O6tJqY&t=12s)
 
 ## 롯데
+
+
+### 롯데오토옥션(1.1.4)
+
+- com.lotteauction  띄워보기 
+
+[com.lotteauction](https://www.youtube.com/watch?v=0Z2hw1nuO9U)
+
+### LOTTE WORLD Magicpass(3.0.27)
+
+- com.lotteworld.android.lottemagicpass   띄워보기
+
+[com.lotteworld.android.lottemagicpass](https://www.youtube.com/watch?v=dh9b9jxehVQ)
+
+### 롯데월드 아쿠아리움(1.0.33)
+
+- com.lotteworld.ticket.aquarium  띄워보기
+  
+[com.lotteworld.ticket.aquarium](https://www.youtube.com/watch?v=ppNmvYgcqY4)
+
+### 롯데렌터카 신차장 멤버십(2.5.6)
+
+- net.lotterentacar.manager 띄워보기 
+
+[net.lotterentacar.manager](https://www.youtube.com/watch?v=T6DDZpurIVQ)
+
+### 롯데월드 어드벤처 부산(1.0.4)
+
+- com.lotteworld.ticket.busan
+  
+[com.lotteworld.ticket.busan ](https://www.youtube.com/watch?v=JS0aIIDVTe8)
+
+### 롯데백화점(5.0.6)
+
+- com.innov.lottecoupon 띄워보기
+  
+[com.innov.lottecoupon](https://www.youtube.com/watch?v=tm3brnsVC9s)
+
+### LOTTE AUTO GLOBAL AUCTION(1.0.4)
+
+- com.lotterental.autoglobal.live   띄워보기
+  
+[com.lotterental.autoglobal.live](https://www.youtube.com/watch?v=0TGXRDjLFWU)
+
+###  롯데스카이힐CC(1.4.2)
+
+- com.lotteskyhill   띄워보기
+
+[com.lotteskyhill.](https://www.youtube.com/watch?v=OG-VajxwQ9o)
+
+### 롯데마트GO(3.3.1)
+
+- com.lottemart.lmscp  띄워보기
+  
+[com.lottemart.lmscp](https://www.youtube.com/watch?v=RpSUGnIqAKs)
+
+### 롯데월드타워 서울스카이(1.0.32)
+
+[com.lotteworld.ticket.seoulsky](https://www.youtube.com/watch?v=PiijoMygxZ4)
+
+
+### 롯데렌터카 신차장 다이렉트(2.1.6)
+
+- net.lotterental.odm  띄워보기
+  
+[net.lotterental.odm](https://www.youtube.com/watch?v=fZiYXZvuFtQ)
 
 ### 롯데 워터파크(1.0.31)
 
@@ -98,6 +241,61 @@
 [com.kbankwith.cbzbank](https://www.youtube.com/watch?v=kifdRfqltQ8)
 
 ## 신한카드 
+
+### 新韩银行 SOL(2.0.9)
+
+- com.shinhan.global.cn.bank 
+
+[com.shinhan.global.cn.bank](https://www.youtube.com/watch?v=PvlkxJNaBs8)
+
+### Shinhan SOL Global(2.4.0)
+
+- com.shinhan.foreignerbank
+  
+[com.shinhan.foreignerbank ](https://www.youtube.com/watch?v=xZRx1MOn5rQ)
+
+### (구)쏠 비즈(SOL Biz) 신한기업뱅킹(4.8.0)
+
+-  com.shinhan.sbizbankold 띄워보기
+  
+[com.shinhan.sbizbankold](https://www.youtube.com/watch?v=RFmdUYQIc_g)
+
+### SBJ BANK Mobile App(2.0.4)
+
+- com.shinhan.global.jp.bank 띄워보기
+
+[com.shinhan.global.jp.bank](https://www.youtube.com/watch?v=Pgj_Ew6mr2s)
+
+
+### Shinhan SOL Viet Nam(3.1.1)
+
+- com.shinhan.global.vn.bank
+
+[com.shinhan.global.vn.bank](https://www.youtube.com/watch?v=sb_BW3tppwg)
+
+### Shinhan Bank SOL Cambodia(4.0.3)
+
+- com.shinhan.global.kh.bank
+  
+[com.shinhan.global.kh.bank](https://www.youtube.com/watch?v=KIrVUzWKOQ4)
+
+### Shinhan Bank Indonesia SOL(2.3.4)
+
+- com.shinhan.global.id.bank 
+
+[com.shinhan.global.id.bank](https://www.youtube.com/watch?v=_YZGRtxwtoA)
+
+### SHINHAN CANADA BANK E-Banking(1.0.10)
+
+- com.shinhan.global.ca.bank
+  
+[com.shinhan.global.ca.bank](https://www.youtube.com/watch?v=yRhsWMu3USI)
+
+###  Shinhan Bank India SOL(2.7.5)
+
+- com.shinhan.global.in.bank 
+
+[com.shinhan.global.in.bank ](https://www.youtube.com/watch?v=ZxAcU1AGRIo)
 
 ### 신한저축은행 디지털뱅크
 
@@ -202,6 +400,12 @@
 
 
 ## 국민은행
+
+### KB라이프-(구)KB생명보험(6.5.6)
+
+- kr.co.kbliSmart
+  
+[kr.co.kbliSmart](https://www.youtube.com/watch?v=xn6HojEdAcY)
 
 ### KB국민은행 스타뱅킹(G6.2.15)(feat Dynamic functions)
 
