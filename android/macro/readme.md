@@ -1,3 +1,136 @@
+## 토스뱅크
+
+### 토스뱅크(toss)
+
+- viva.republica.toss
+
+[viva.republica.toss](https://www.youtube.com/watch?v=QBzMB8rRcyY)
+
+## 업비트
+
+### 업비트(1.25.0)
+-  com.dunamu.exchange 
+
+[com.dunamu.exchange](https://www.youtube.com/watch?v=6sBwwCgbEFg&t=4s)
+
+### 업비트(글로벌) 
+
+- com.dunamu.exchange.global
+  
+[com.dunamu.exchange.global](https://www.youtube.com/watch?v=wT2Oj0NLyjg&t=12s)
+
+## 한국투자증권
+
+###  한국투자증권 eFriend Smart(2.6.4) 
+
+- com.truefriend.smartnewa
+
+[com.truefriend.smartnewa](https://www.youtube.com/watch?v=1ysYH4aI52w)
+
+## 메리츠
+
+### KCGI펀드투자 구 메리츠(10.13.0) 
+
+- com.meritzam.fund
+  
+[com.meritzam.fund ](https://www.youtube.com/watch?v=U8_yOyAFXws&t=144s)
+
+## DCB bank
+
+### DCB Bank Mobile Banking(3.0.27) 
+
+- com.dcb
+  
+[com.dcb ](https://www.youtube.com/watch?v=RmS-UdJVbdU)
+
+## percent
+
+### Random Dice Defense(8.0.0)
+
+- com.percent.royaldice 
+
+[com.percent.royaldice](https://www.youtube.com/watch?v=o0elRbYr_tU)
+
+## Millieshelf
+
+### 밀리의 서재 독서와 무제한 친해지리(0.0.0) 
+
+- kr.co.millie.millieshelf
+  
+
+[kr.co.millie.millieshelf](https://www.youtube.com/watch?v=pBD_9g4UBs0)
+
+## damn bank
+
+### damn bank(1.1.1)
+
+- com.app.damnvulnerablebank 
+
+[com.app.damnvulnerablebank](https://www.youtube.com/watch?v=YyUDthvk5uk)
+
+
+## Korea Credit Bureau
+
+### 올크레딧(4.2.0) 
+
+[com.koreacb.allcredit](https://www.youtube.com/watch?v=cZQUwFWeSoQ)
+
+## 건강보험
+
+### The건강보험(14.4) 
+
+-  kr.or.nhic 
+
+[ kr.or.nhic](https://www.youtube.com/watch?v=vatzjcOx7ns)
+
+## 대신
+
+### 대신증권 CYBOS Touch(6.2.01) 
+
+- com.daishin 
+
+[com.daishin ](https://www.youtube.com/watch?v=odwzeeDFIj8)
+
+### 대신증권 크레온 온라인 전용 (6.2.01) 
+
+- com.daishin.creon
+  
+[com.daishin.creon](https://www.youtube.com/watch?v=RqsWcV2jbV0)
+
+## CJ
+
+### CJ ONE -
+
+- kr.co.ivlog.mobile.app.cjonecard
+- 
+
+[kr.co.ivlog.mobile.app.cjonecard](https://www.youtube.com/watch?v=MDah-JUsADU)
+
+
+## (주)헥토이노베이션
+
+### 간편결제매니저 휴대폰간편로그인(1.8.0) 
+
+-  com.minwise.safepayment
+- 
+[com.minwise.safepayment](https://www.youtube.com/watch?v=j107um9Tgb4)
+
+## 새마을금고
+
+### MG더뱅킹(3.49)
+
+- com.smg.spbs
+   
+[com.smg.spbs](https://www.youtube.com/watch?v=sE4foP5acdM)
+
+## kt
+
+### 온누리상품권(01.04.02)
+
+- com.kt.onnurigiftcard  
+
+[com.kt.onnurigiftcard](https://www.youtube.com/watch?v=a1Rz7bXQaPQ)
+
 ## sk 
 
 ### Syrup(5.7.15_M) 
@@ -395,6 +528,20 @@
 
 ## ibk 기업은행
 
+### i ONE Bank 미니(2.4.6)
+
+- com.ibk.neobanking.silver
+  
+
+[com.ibk.neobanking.silver ](https://www.youtube.com/watch?v=rf32de5DaFQ)
+
+
+### IBK 법인카드(2.0.6) -
+
+- com.IBK.bizcard 
+
+[com.IBK.bizcard](https://www.youtube.com/watch?v=5ATcjM-76xY)
+
 ### IBK Indonesia
 
 - com.ibk.online.id 띄워보기 
@@ -446,6 +593,12 @@
 [com.kbankwith.cbzbank](https://www.youtube.com/watch?v=kifdRfqltQ8)
 
 ## 신한
+
+### 신한카드 대표플랫폼(5.4.3)
+
+- com.shcard.smartpay
+  
+[com.shcard.smartpay ](https://www.youtube.com/watch?v=p--ahj-OhB4)
 
 ### 신한카드 올댓(4.4.6)
 
@@ -590,6 +743,12 @@
 [kr.co.cu.onbank](https://www.youtube.com/watch?v=HagO0GloROs)
 
 ## 광주은행
+
+### 광주은행 기업뱅킹(1.1.4) 
+
+- com.kjbank.asb.cbanking
+
+[com.kjbank.asb.cbanking](https://www.youtube.com/watch?v=paxiCQUVTY8)
 
 ### 광주 와뱅크
 - com.kjbank.asb.pbanking 띄워보기
@@ -742,6 +901,12 @@
 [com.sbi.banking](https://www.youtube.com/watch?v=FUXtCsGuSd8)
 
 ## 우리 은행
+
+### 우리WON카(1.0.28) 
+
+- com.woorifcapital.m.woncar
+  
+[com.woorifcapital.m.woncar ](https://www.youtube.com/watch?v=nVDKhN3bpWs)
 
 ### JB우리캐피탈(1.0.2)
 
