@@ -1,3 +1,155 @@
+## sk 
+
+### Syrup(5.7.15_M) 
+
+- com.skt.skaf.OA00026910
+  
+[com.skt.skaf.OA00026910 ](https://www.youtube.com/watch?v=vfbcJi53rTQ&t=128s)
+
+###  SK페이(2.0.9)  
+
+-  com.elevenst.skpay
+
+[ com.elevenst.skpay](https://www.youtube.com/watch?v=5LdG1AYqPHE&t=141s)
+
+## 착한페이
+
+### 착한페이(01.00.38) -
+- com.kt.android.goodpay
+  
+[com.kt.android.goodpay  ](https://www.youtube.com/watch?v=4Tf8y1huFnM)
+
+
+## 쿠팡
+
+### 쿠팡 Play
+
+- com.coupang.mobile.play
+  
+[com.coupang.mobile.play](https://www.youtube.com/watch?v=PJz8nYJKRCw)
+
+### 쿠팡  Coupang (7.7.5) 
+
+
+- com.coupang.mobile
+
+[com.coupang.mobile](https://www.youtube.com/watch?v=KCn8ebIt_gg)
+
+## 010pay
+
+###  010pay 최저가 모바일상품권(2.3.8)
+
+- kr.co.settlebank.sb010pay
+  
+[kr.co.settlebank.sb010pay ](https://www.youtube.com/watch?v=jUR0rMw8p70)
+
+## 삼성
+
+
+### 제로페이 가맹점(1.0.9) -
+
+- kr.or.zeropay.zip
+  
+[kr.or.zeropay.zip](https://www.youtube.com/watch?v=RmeE6zdbrgI)
+
+
+### 삼성증권 mPOP(3.00.47) 
+
+- com.samsungpop.android.mpop
+  
+[com.samsungpop.android.mpop](https://www.youtube.com/watch?v=X35MMV9kLA4)
+
+### 삼성화재 영업플러스(1.1.0)
+
+- com.samsungfire.salesplus.aosportal
+
+[com.samsungfire.salesplus.aosportal](https://www.youtube.com/watch?v=aqb4RWT9u-4)
+
+###  삼성화재(3.7.2)
+
+- com.samsungfire.insurance 
+
+[com.samsungfire.insurance](https://www.youtube.com/watch?v=4oMFq5vTtUA)
+
+### 삼성화재 다이렉트(6.0.8) 
+
+- sam.myanycar.samsungFire
+  
+[sam.myanycar.samsungFire](https://www.youtube.com/watch?v=vRQ26VsxkUA)
+
+### 삼성카드(5.2.105) 
+
+- kr.co.samsungcard.mpocket
+  
+
+[kr.co.samsungcard.mpocket](https://www.youtube.com/watch?v=cnZhK2xSXj0)
+
+## BNP Paribas Bank Polska S.A
+
+### BNP Paribas GOMobile(2.18.2) 
+
+- com.finanteq.finance.bgz
+  
+[com.finanteq.finance.bgz](https://www.youtube.com/watch?v=b556JcYrOb4)
+
+## payco
+
+### PAYCO(3.47.2)
+
+- com.nhnent.payapp
+
+  
+[com.nhnent.payapp](https://www.youtube.com/watch?v=dj9TL1gku4k)
+
+## 시티뱅크
+
+### Citibank KR(2.1.04.00) 
+
+- kr.co.citibank.citimobile
+  
+[kr.co.citibank.citimobile ](https://www.youtube.com/watch?v=PZGB1sY2cNI)
+
+## 산림조합
+
+### 산림조합 SJ스마트뱅킹(1.6.5)
+
+- kr.or.nfcf.NFCFSmart
+  
+[kr.or.nfcf.NFCFSmart](https://www.youtube.com/watch?v=Jdr1mTxTw9Y)
+
+## 신용보증기금
+
+### 신용보증기금 ON Biz(1.0.8) 
+- kr.co.kodit.app
+  
+[kr.co.kodit.app ](https://www.youtube.com/watch?v=YvSEdKxxiSo)
+
+## 금융결재원
+
+### 디지털OTP 스마트보안카드 (1.4.0)  
+
+[kr.or.kftc.fsc](https://www.youtube.com/watch?v=C8TAOxL5nc4)
+
+### 뱅크페이 제로페이(5.64)  
+
+- com.kftc.bankpay.android
+  
+[com.kftc.bankpay.android ](https://www.youtube.com/watch?v=dimqOXpYduk&t=1s)
+
+### 스마트OTP 공동앱(1.4.6) 
+
+- com.kftc.smartotp
+
+[com.kftc.smartotp](https://www.youtube.com/watch?v=qXpzGpxeoBA)
+
+## 금융감독원
+
+### 모바일 금융감독원(1.4.13)
+
+- kr.or.fss.mapp2
+  
+[kr.or.fss.mapp2 ](https://www.youtube.com/watch?v=amt2LGLEy5g)
+
 ## 신세계
 
 ### Shinsegae mall(7.4.5)
@@ -14,7 +166,20 @@
   
 [com.shinhan.heyoung](https://www.youtube.com/watch?v=8NViD2o1RvA)
 
-## 서울시청
+## 서울시
+
+### 티머니페이 서울사랑상품권(2.1.4)  -
+
+- com.tmoney.tmpay
+  
+[com.tmoney.tmpay](https://www.youtube.com/watch?v=lf21jMMJw2c)
+
+### 서울시 세금납부 - 서울시 STAX(1.2.2)
+
+- com.shinhan.stax
+  
+
+[com.shinhan.stax](https://www.youtube.com/watch?v=ONvDVGRtozY)
 
 ### 서울Pay+ (서울페이 서울페이플러스 서울사랑상품권)(1.2.7)
 
@@ -23,6 +188,36 @@
 [com.shinhancard.localpayplatform](https://www.youtube.com/watch?v=H1wey7PiTXQ)
 
 ## 현대
+
+### 현대해상 다이렉트(1.8.1)
+
+- kr.co.direct.hi.hyundai.android
+  
+[kr.co.direct.hi.hyundai.android ](https://www.youtube.com/watch?v=GERBde7SiVo)
+
+### 현대카드 M몰(3.0.3)
+
+- com.hyundaiCard.HyundaiCardMPoint
+
+[com.hyundaiCard.HyundaiCardMPoint](https://www.youtube.com/watch?v=CTFwADBjjWo)
+
+### 현대캐피탈-내차시세,내차팔기,신차할부,대출계산기(5.4.2)
+
+- com.hyundai.capital
+
+[com.hyundai.capital](https://www.youtube.com/watch?v=Fl7EEI6Ayz8)
+
+### E-Pit: Fast charging solution(2.2.8)
+
+- com.hyundai.acteev  
+
+[com.hyundai.acteev ](https://www.youtube.com/watch?v=qXPr_0-BkiM)
+
+### 현대카드(3.5.1)
+
+-  com.hyundaicard.appcard
+
+[ com.hyundaicard.appcard](https://www.youtube.com/watch?v=zCHrwBTvrFM)
 
 ### HyundaiDepartmentStoreDutyFree(2.38)
 
@@ -86,6 +281,16 @@
 
 ## 롯데
 
+### 롯데렌터카(4.3.8)
+
+- com.kt.main
+  
+[com.kt.main](https://www.youtube.com/watch?v=nobk4-LsciI)
+
+### 디지로카(롯데카드)(5.2.28)
+
+-  com.lcacApp-5.2.28 
+[com.lcacApp-5.2.28](https://www.youtube.com/watch?v=ecO8M6avHcA)
 
 ### 롯데오토옥션(1.1.4)
 
@@ -240,7 +445,37 @@
 - com.kbankwith.cbzbank 띄워보기
 [com.kbankwith.cbzbank](https://www.youtube.com/watch?v=kifdRfqltQ8)
 
-## 신한카드 
+## 신한
+
+### 신한카드 올댓(4.4.6)
+
+- com.shinhancard.wallet
+- 
+[com.shinhancard.wallet](https://www.youtube.com/watch?v=cpvSQ2p82Dc)
+
+###  (구)신한 쏠(SOL) - 신한은행 스마트폰뱅킹(8.9.3)
+
+- om.shinhan.sbanking2015
+  
+[om.shinhan.sbanking2015](https://www.youtube.com/watch?v=TJ4JsNvb6ug)
+
+### 땡겨요(1.4.8)
+
+- com.shinhan.o2o  
+
+[com.shinhan.o2o  ](https://www.youtube.com/watch?v=0Q-lrCVMgP0)
+
+### 신한 마이카(2.1.6)
+
+- com.shinhancard.autoplatform
+  
+[com.shinhancard.autoplatform](https://www.youtube.com/watch?v=psy1VeLHxgo)
+
+### 신한알파 - 대표MTS(4.0.4)
+
+- com.shinhaninvest.nsmts
+ 
+[com.shinhaninvest.nsmts](https://www.youtube.com/watch?v=KI_dbRvKovQ)
 
 ### 新韩银行 SOL(2.0.9)
 
@@ -401,6 +636,12 @@
 
 ## 국민은행
 
+### 리브 Next(1.5.3)
+
+- com.kbstar.reboot 
+
+[com.kbstar.reboot](https://www.youtube.com/watch?v=YqR0oG12eoI)
+
 ### KB라이프-(구)KB생명보험(6.5.6)
 
 - kr.co.kbliSmart
@@ -501,6 +742,36 @@
 [com.sbi.banking](https://www.youtube.com/watch?v=FUXtCsGuSd8)
 
 ## 우리 은행
+
+### JB우리캐피탈(1.0.2)
+
+-  com.wooricap.jbmobilesupport 
+
+[ com.wooricap.jbmobilesupport](https://www.youtube.com/watch?v=5xRAMdKLcnA)
+
+### 원더랜드 - 부동산 금융 청약 단지 정보(1.0.9)
+
+- com.wooribank.wontheland 
+
+[com.wooribank.wontheland ](https://www.youtube.com/watch?v=Lffl7R1I5NI)
+
+### 우리은행 위비뱅크(3.5.4)]
+
+- com.wooribank.smart.mwib 
+
+[com.wooribank.smart.mwib ](https://www.youtube.com/watch?v=u98wmJWKn4M)
+
+### 우리WON캐피탈(1.0.23)
+
+- com.woorifcapital.m.cus
+  
+[com.woorifcapital.m.cus ](https://www.youtube.com/watch?v=5tu96AQVeDI)
+
+### Woori Global Banking(1.4.4)]
+
+- com.wooribank.smlg_android
+  
+[com.wooribank.smlg_android ](https://www.youtube.com/watch?v=MVFuFnvCmFE)
 
 ### 우리은행 우리WON뱅킹(2.3.8)
 
