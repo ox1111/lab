@@ -30,3 +30,24 @@
 ### 제로보드 익스프레스 엔진 1.5.3 웹셀코드 삽입 취약점 
 
 [![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F0FnwK%2FbtqK2q02vuY%2FikJSnK2NDmU4wzzG5DNC41%2Fimg.png)](https://zdnet.co.kr/view/?no=20120906165314&re=R_20120920192608)
+
+
+## 8
+### 그누보드 4.34.10 SQL INJECTIN 취약점
+[![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FenyIbN%2FbtqK6e6ng8x%2FyzFAjklYpoXGLqpMOk9x7K%2Fimg.png)](https://sir.kr/g4_pds/6476)
+
+
+## 9
+### 제로보드 익스프레스 엔진 1.5.4  웹쉘코드 삽입 취약점 
+
+[![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9eTiu%2FbtqKYnxsEcg%2Fr0VBjfx9MaMQKD2xUO3Ak1%2Fimg.png)](https://www.dailysecu.com/news/articleView.html?idxno=4299)
+
+## 10
+###  glibc - 'getaddrinfo' Remote Stack Buffer Overflow 
+
+[![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmgYp5%2FbtqK04xo9sX%2FIzDgwfFe472X2OqLP6TaJK%2Fimg.png)](https://www.exploit-db.com/exploits/40339)
+
+
+## 11
+### 제로보드4 PI9에서 RFI(Remote File Include ) 취약점
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fm40zP%2FbtqK04jRDI1%2FxAqz6ZpNCBNMegtd6eDZ40%2Fimg.jpg)
