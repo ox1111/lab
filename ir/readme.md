@@ -68,9 +68,26 @@
 [![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbweHcf%2FbtqK6eSPMNt%2FKYSWompymC2QDcqT7EmWF1%2Fimg.jpg)](https://www.boannews.com/media/view.asp?idx=31328&page=1909&kind=3)
 
 
+## 14
+###   제로보드 익스프레스 엔진 1.5.3.2 웹셀코드 삽입 취약점 
+
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbrV02l%2FbtqKZmSAaUl%2Fv2eKlfVKBIB8HfyCjMdzs0%2Fimg.jpg)
+
+
+## 15
+###  제로보드 익스프레스 엔진 1.5.3.3 웹셀코드 
+
+[![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fwecdx%2FbtqKYmL3CBx%2FSqDx0uyFmUYwKQckwHhSk0%2Fimg.jpg)](https://www.boannews.com/media/view.asp?idx=33811&page=3&kind=3)
+
 
 ## 14
 ###  제로보드 익스프레스 엔진 1.5.3.1 웹셀코드 삽입 취약점 
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F8rG7s%2FbtqK04xo9wK%2FBsEafhA6w6AGglfAKPkqJ0%2Fimg.jpg)
 
+
+## 팀구조
+
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbOlAeq%2FbtqK16uW55w%2FAIsmmyub5cYWWqbaYFx641%2Fimg.jpg)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQmEur%2FbtqKYmFjeYn%2FKB9gtCZzhcE7iFRujtRjS0%2Fimg.jpg)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc8TkGK%2FbtqKXKsTAF2%2FcKXkRqo3CtCkWTvRQGhe0k%2Fimg.jpg)
