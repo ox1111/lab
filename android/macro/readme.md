@@ -1,3 +1,50 @@
+## kdb 산업은행
+
+
+### KDB산업은행 「스마트KDB」(4.5.0) (feat Dynamic functions)
+
+- co.kr.kdb.android.smartkdb app 띄워보기 
+  
+[co.kr.kdb.android.smartkdb](https://www.youtube.com/watch?v=TfGe4O6tJqY&t=12s)
+
+## 롯데
+
+### 롯데 워터파크(1.0.31)
+
+- com.lotteworld.ticket.waterpark 띄워보기 
+  
+[com.lotteworld.ticket.waterpark](https://www.youtube.com/watch?v=pM6qbRe4GoE)
+
+### 롯데모바일상품권(1.22.2)
+
+- com.lottegift.mobile.android   띄워보기 
+
+[com.lottegift.mobile.android ](https://www.youtube.com/watch?v=bXSfLIdvVMM)
+
+### 롯데손해보험 렛클릭(공식)(2.38.0)
+
+- kr.co.lotteins.LOTTEHM app 띄워보기 
+
+[ kr.co.lotteins.LOTTEHM](https://www.youtube.com/watch?v=hZR0G70MKUs)
+
+### 롯데손해보험(공식)(1.21.3)
+
+- kr.co.lotteins.LOTTEINS app 띄워보기
+
+[kr.co.lotteins.LOTTEINS](https://www.youtube.com/watch?v=WKVWS2UC6M8)
+
+### 롯데손해보험(공식)(1.21.3)
+
+-  kr.co.lotteins.LOTTEINS  띄워보기 
+
+[ kr.co.lotteins.LOTTEINS ](https://www.youtube.com/watch?v=WKVWS2UC6M8)
+
+### 디지로카(롯데카드)(5.2.26)
+
+-  com.lcacApp app 띄워보기 
+
+[com.lcacApp](https://www.youtube.com/watch?v=a9c31akgs98)
+
 ## ibk 기업은행
 
 ### IBK Indonesia
@@ -156,6 +203,20 @@
 
 ## 국민은행
 
+### KB국민은행 스타뱅킹(G6.2.15)(feat Dynamic functions)
+
+-  com.kbstar.kbbank  띄워보기 
+
+[com.kbstar.kbbank](https://www.youtube.com/watch?v=hUm_flgZOrE)
+
+### 리브모바일 - 국민은행 알뜰 리브liiv
+
+- com.kbstar.liivmobile app 띄워보기 
+
+[com.kbstar.liivmobile](https://www.youtube.com/watch?v=ibVnOtR7FZU)
+
+
+
 ### KB 스마트 비서
 
 - com.kbinsure.KBSmart
@@ -237,11 +298,12 @@
 
 ## 우리 은행
 
-### 리브모바일 - 국민은행 알뜰 리브liiv
+### 우리은행 우리WON뱅킹(2.3.8)
 
-- com.kbstar.liivmobile app 띄워보기 
+- com.wooribank.smart.npibapp  띄워보기 
 
-[com.kbstar.liivmobile](https://www.youtube.com/watch?v=ibVnOtR7FZU)
+[com.wooribank.smart.npibapp ](https://www.youtube.com/watch?v=2jpezrpqUgQ)
+
 
 ### 우리은행 우리WON국민주택채권
 
