@@ -27,6 +27,8 @@
 ## 솔루션
 [apk 자동 분석 기능](https://www.youtube.com/watch?v=mz41Nte44hg)
 
+[![](http://www.boannews.com/media/upFiles2/2020/11/1848878_2235.JPG)](https://www.boannews.com/media/view.asp?idx=92597)
+
 # 대외활동
 
 ## 1
