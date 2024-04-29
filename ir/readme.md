@@ -16,6 +16,17 @@
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FYSaPA%2FbtqKYlNeWJX%2Fpbpfk4s6Z1pGYqUZKvF4ck%2Fimg.jpg)
 
 
+### 악성코드분석
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbVPW4P%2FbtqK3CUcUDD%2Fvm9504lH8DHP3b7a8ubb11%2Fimg.jpg)
+
+### 악성코드 분석 보고서
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdP82rT%2FbtqK2rloQDZ%2FfRkgkZZ1csKw1LZe3JUypk%2Fimg.jpg)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuuytF%2FbtqK2sLjtMP%2Fr77jkjsDFXxP05ydB83o1K%2Fimg.jpg)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbl7TC6%2FbtqK2YDaYbO%2FakPHIxLyZhJNyVkfkHw331%2Fimg.jpg)
+
+## 솔루션
+[](https://www.youtube.com/watch?v=mz41Nte44hg)
+
 # 대외활동
 
 ## 1
