@@ -24,3 +24,8 @@
 ## 5 
 ### 제로보드 P9 신규취약점
 [![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc9m7rc%2FbtqKXMc99SX%2F7Q2T2IVg0eKMN8H3oat70k%2Fimg.png)](https://www.boannews.com/media/view.asp?idx=24578)
+
+
+## 7
+
+[![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F0FnwK%2FbtqK2q02vuY%2FikJSnK2NDmU4wzzG5DNC41%2Fimg.png)](https://zdnet.co.kr/view/?no=20120906165314&re=R_20120920192608)
