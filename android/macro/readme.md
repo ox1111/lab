@@ -21,7 +21,10 @@
 
 - viva.republica.toss
 
-[viva.republica.toss](https://www.youtube.com/watch?v=QBzMB8rRcyY)
+[![viva.republica.toss](https://play-lh.googleusercontent.com/Yoaqip2U7E9EKghfvnZW1OeanfbjaL3Qqn5TGVDYAqkbXsL3TDNyEp_oBPH5vAPro38=w240-h480-rw)](https://www.youtube.com/watch?v=QBzMB8rRcyY)
+
+
+
 
 ## 업비트
 
