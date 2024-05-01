@@ -21,7 +21,7 @@
 
 - viva.republica.toss
 
-[![viva.republica.toss]([https://play-lh.googleusercontent.com/Yoaqip2U7E9EKghfvnZW1OeanfbjaL3Qqn5TGVDYAqkbXsL3TDNyEp_oBPH5vAPro38=w240-h480-rw](https://static.toss.im/tds/favicon/apple-touch-icon-57x57.png))](https://www.youtube.com/watch?v=QBzMB8rRcyY)
+[![viva.republica.toss](https://static.toss.im/tds/favicon/apple-touch-icon-57x57.png))](https://www.youtube.com/watch?v=QBzMB8rRcyY)
 
 
 
