@@ -19,11 +19,10 @@
 
 ### 토스뱅크(toss)
 
-- viva.republica.toss
 
 [![viva.republica.toss](https://static.toss.im/tds/favicon/apple-touch-icon-57x57.png))](https://www.youtube.com/watch?v=QBzMB8rRcyY)
 
-
+^-- [ viva.republica.toss 위 아이콘 클릭 ]
 
 
 ## 업비트
