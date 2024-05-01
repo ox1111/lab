@@ -23,3 +23,18 @@ ollama pull llama3:8b
 [출처](https://twitter.com/dani_avila7/status/1781061220495138907)
 
 #llama3 #copilot #vscode
+
+
+## playground llama3-70b-8192 한글
+
+이거 속도가 미쳤네요. 한 번 써보세요. Llama 3 70B도 한국어는 진짜 못하는데, 
+속도와 퀄리티가 와... 어이없어서 말이 안 나오네요. 여기서 최적화를 해줘서 이런 속도가 나오는 거 같은데, 무슨....
+
+근데 GPT-4, Claude 는 헛소리입니다.
+
+
+[playgrouind](https://console.groq.com/playground?model=llama3-70b-8192)
+
+
+
+
