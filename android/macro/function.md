@@ -25,6 +25,6 @@
  
 [요놈요놈프로젝트 pc제어관리 프로그램](www.youtube.com/watch?v=WZvlgk4DBmw&t=3s)
 
-[python to exec]9www.youtube.com/watch?v=zCaQ5cKG-Ss&t=6s)
+[python to exec](www.youtube.com/watch?v=zCaQ5cKG-Ss&t=6s)
  
 [자동으로 서버 공격 모의해킹 테스트](www.youtube.com/watch?v=QtLPxY8ulsQ&t=4s)
