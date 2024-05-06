@@ -17,8 +17,11 @@ github에 올려진 모든 연구자료는 연구용입니다.
 ##           The Tao of Programming 
 
                                   영역: 죠프리 제임스(Geoffrey James) 
+                                  
                                   필사: 세쓰 로버트슨(Seth Robertson) 
+                                  
                                   한역: 윤태원 
+                                  
 ###    목차 
 
 
