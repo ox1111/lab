@@ -14,7 +14,7 @@ github에 올려진 모든 연구자료는 연구용입니다.
 
 # 프로그래밍의 도(道) 
 
-##   The Tao of Programming 
+## The Tao of Programming 
 
         영역: 죠프리 제임스(Geoffrey James) 
                                   
