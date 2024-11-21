@@ -1,5 +1,4 @@
-# SpeeDr00t@BalckFalcon.
-# xiphiasilver@BalckFalcon.
+# @BalckFalcon.
 # 
 
 ## 해킹 강의 
