@@ -60,7 +60,7 @@ license data를 복사한다.
 ![1.2 JEB Controller 실행하기](./1.2%20jeb%20controller실행하기.PNG)
 
 
-### 5 ) Input your license key 입력 받는 대기화면 확인
+### 5 ) JEB KEY GENERATOR
 
 아래 사이트에 접속해서 
 
@@ -73,11 +73,18 @@ pnfsoftware.com/genlk
 ![1.3 JEB Controller 실행하기](./1.3%20jeb%20controller실행하기.PNG)
 
 
-### 
-
-
+### 6) 생성한 License key를 확인한다
 
 ![1.4 JEB Controller 실행하기](./1.4%20jeb%20controller실행하기.PNG)
+
+### 7) Lincense key 입력한다.
+
+6)에서 생성한 Lincense key를 복사해서 입력한다.
+
+``
+Input your license key : key
+``
+
 
 ![1.5 JEB Controller 실행하기](./1.5%20jeb%20controller실행하기.PNG)
 
