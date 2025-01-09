@@ -78,9 +78,9 @@ pnfsoftware.com/genlk
 
 ![1.4 JEB Controller 실행하기](./1.4%20jeb%20controller실행하기.PNG)
 
-### 7) Lincense key 입력한다.
+### 7) License key 입력한다.
 
-6)에서 생성한 Lincense key를 복사해서 입력한다.
+6)에서 생성한 License key를 복사해서 입력한다.
 
 ``
 Input your license key : key
