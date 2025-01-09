@@ -2,7 +2,7 @@
 
 이 문서는 JEB 플로팅 라이선스 시스템의 개요와 설치 방법을 제공합니다.
 
-** write by SpeeDr00t **
+**write by SpeeDr00t**
 
 ## JEB Controller 구조도
 
