@@ -43,6 +43,8 @@ source  ~/.bashrc
 
 ### 3) JEB Controller 실행하기
 
+앞서 이메일로 받은 암호를 넣어서 실행한다.
+
 ```
 ./jeb_linux.sh -c --controller
 
