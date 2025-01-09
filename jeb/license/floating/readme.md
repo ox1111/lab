@@ -105,9 +105,9 @@ Input your license key : key
 
 ### 2) JEB License 서버 접속하기
 
-host name은 JEB License서버가 설치된 아이피 설정
+* host name은 JEB License서버가 설치된 아이피 설정
 
-port는 지정한 포트 설정
+* port는 지정한 포트 설정
 
 ![5.10 JEB 클라이언트 설치하기](./5.10%20jeb%20클라이언트%20설치하기.PNG)
 
