@@ -4,6 +4,13 @@
 
 **write by SpeeDr00t**
 
+
+* jeb 메뉴얼
+
+```
+https://www.pnfsoftware.com/jeb/manual/floating/
+```
+
 ## JEB Controller 구조도
 
 아래는 JEB 컨트롤러의 구조를 나타내는 다이어그램입니다:
