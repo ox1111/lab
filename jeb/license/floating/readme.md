@@ -39,7 +39,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 source  ~/.bashrc
 ```
 
-![5.1 JEB 클라이언트 설치하기](./5.1%20jeb%20클라이언트%20설치하기.PNG)
+![5.7 JEB 클라이언트 설치하기](./5.7%20jeb%20클라이언트%20설치하기.PNG)
 
 
 
