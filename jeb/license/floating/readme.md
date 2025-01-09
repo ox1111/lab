@@ -94,6 +94,8 @@ Input your license key : key
 
 ### 1) JEB client 실행하기
 
+이메일에서 받은 암호 입력한다.
+
 ```
 ./jeb_linux.sh
 ```
