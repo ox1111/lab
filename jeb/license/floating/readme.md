@@ -14,7 +14,7 @@
 - 안전한 인증 및 라이선싱
 - 라이선스 추적을 위한 데이터베이스 스키마
 
-## 설치 방법
+## JEB Controller 설치 방법
 
 ### 1) 구매후 jeb 다운로드링크와 암호가 전달된다.
 ![jeb 링크](./download.PNG)
@@ -89,6 +89,19 @@ Input your license key : key
 ![1.5 JEB Controller 실행하기](./1.5%20jeb%20controller실행하기.PNG)
 
 
+## JEB client 접속 방법
+
+### 1) JEB client 실행하기
+
+```
+./jeb_linux.sh
+```
 
 
+![5.8 JEB 클라이언트 설치하기](./5.8%20jeb%20클라이언트%20설치하기.PNG)
+
+
+![5.10 JEB 클라이언트 설치하기](./5.10%20jeb%20클라이언트%20설치하기.PNG)
+
+![5.11 JEB 클라이언트 설치하기](./5.11%20jeb%20클라이언트%20설치하기.PNG)
 
