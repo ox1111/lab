@@ -41,6 +41,15 @@ source  ~/.bashrc
 
 ![5.7 JEB 클라이언트 설치하기](./버전확인.PNG)
 
+### 3) JEB Controller 실행하기
+
+```
+./jeb_linux.sh -c --controller
+
+```
+
+![1.1 JEB Controller 실행하기](./1.1%20jeb%20controller실행하기.PNG)
+
 
 
 
