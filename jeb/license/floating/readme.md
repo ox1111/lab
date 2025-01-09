@@ -54,4 +54,16 @@ source  ~/.bashrc
 
 
 
+![1.2 JEB Controller 실행하기](./1.2%20jeb%20controller실행하기.PNG)
+
+
+![1.3 JEB Controller 실행하기](./1.3%20jeb%20controller실행하기.PNG)
+
+![1.4 JEB Controller 실행하기](./1.4%20jeb%20controller실행하기.PNG)
+
+![1.5 JEB Controller 실행하기](./1.5%20jeb%20controller실행하기.PNG)
+
+
+
+
 
