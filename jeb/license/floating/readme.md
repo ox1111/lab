@@ -53,11 +53,29 @@ source  ~/.bashrc
 ![1.1 JEB Controller 실행하기](./1.1%20jeb%20controller실행하기.PNG)
 
 
+### 4 ) Input your license key 입력 받는 대기화면 확인
+
+license data를 복사한다.
 
 ![1.2 JEB Controller 실행하기](./1.2%20jeb%20controller실행하기.PNG)
 
 
+### 5 ) Input your license key 입력 받는 대기화면 확인
+
+아래 사이트에 접속해서 
+
+4)에서 복사한 license data와 원하는 key name을 입력한다.
+
+```
+pnfsoftware.com/genlk
+```
+
 ![1.3 JEB Controller 실행하기](./1.3%20jeb%20controller실행하기.PNG)
+
+
+### 
+
+
 
 ![1.4 JEB Controller 실행하기](./1.4%20jeb%20controller실행하기.PNG)
 
