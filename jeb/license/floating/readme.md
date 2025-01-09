@@ -2,6 +2,8 @@
 
 이 문서는 JEB 플로팅 라이선스 시스템의 개요와 설치 방법을 제공합니다.
 
+write by SpeeDr00t
+
 ## JEB Controller 구조도
 
 아래는 JEB 컨트롤러의 구조를 나타내는 다이어그램입니다:
