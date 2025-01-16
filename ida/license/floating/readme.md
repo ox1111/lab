@@ -22,4 +22,4 @@ IDA Pro Floating License, Lumina 서버 구매하면
 ![IDA License Server 설치 화면](capture/1.11%20ida%20license%20server%20설치.PNG)
 
 ## 5)  IDA License 서버 설치
-![IDA License Server 설치 화면](capture/1.11.2%20ida%20license%20server%20설치.PNG)
+![IDA License Server 설치 화면](capture/1.11.2%20ida%20license%20server%20설치.png)
