@@ -33,3 +33,19 @@ IDA Pro Floating License, Lumina 서버 구매하면
 ## STEP3. Hex-Rays License Server  설치 
 ![IDA License Server 설치 화면](capture/1.11.5%20ida%20license%20server%20설치.PNG)
 
+## STEP4. Hex-Rays License Server  설치 
+![IDA License Server 설치 화면](capture/1.11.6%20ida%20license%20server%20설치.PNG)
+
+## STEP5. Hex-Rays License Server  설치 
+![IDA License Server 설치 화면](capture/1.11.7%20ida%20license%20server%20설치.PNG)
+
+## STEP6. Hex-Rays License Server  설치 
+![IDA License Server 설치 화면](capture/1.11.8%20ida%20license%20server%20설치.PNG)
+
+## STEP7. Hex-Rays License Server  설치 
+![IDA License Server 설치 화면](capture/1.11.9%20ida%20license%20server%20설치.PNG)
+
+## STEP8. Hex-Rays License Server  설치 
+![IDA License Server 설치 화면](capture/1.11.10%20ida%20license%20server%20설치.PNG)
+
+
