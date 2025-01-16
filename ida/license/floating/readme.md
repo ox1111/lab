@@ -1,4 +1,4 @@
-# IDA Pro Floating License 등록해보기
+# IDA Pro Floating License 설치해보기
 
 IDA Pro Floating License, Lumina 서버 구매하면
 다음과 같이 3개 Pending Activation이 뜬다.
@@ -21,8 +21,8 @@ IDA Pro Floating License, Lumina 서버 구매하면
 ## 4)  key와  certificate 파일 확인
 ![IDA License Server 설치 화면](capture/1.11%20ida%20license%20server%20설치.PNG)
 
-## 5)  IDA License 서버 설치
+## 5) Hex-Rays License Server 서버 설치
 ![IDA License Server 설치 화면](capture/1.11.2%20ida%20license%20server%20설치.png)
 
-## 6)  IDA License 서버 설치
+## 6) Hex-Rays License Server 서버 설치 STEP1
 ![IDA License Server 설치 화면](capture/1.11.3%20ida%20license%20server%20설치.png)
