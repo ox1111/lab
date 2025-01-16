@@ -15,3 +15,5 @@ IDA Pro Floating License, Lumina 서버 구매하면
   
 ![IDA License Server 설치 화면](capture/1.2%20ida%20license%20server%20설치.PNG)
 
+## 3) active가 확인되면, key와  certificate를 다운로드 할 수 있다
+![IDA License Server 설치 화면](capture/1.5%20ida%20license%20server%20설치.PNG)
