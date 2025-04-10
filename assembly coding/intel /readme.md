@@ -46,8 +46,11 @@ f0 90                ; LOCK + NOP
 
 
 ; 모든 그룹 prefix가 동시에 붙은 예 (올바른 순서)
+
 f3 64 66 67 a5       ; REP + FS + Operand Size + Address Size + MOVS
+
 f0 2e 66 67 a1 34 12 00 00 ; LOCK + CS + Operand/Address override + MOV EAX, [imm32]
+
 
 📌 참고:
 
