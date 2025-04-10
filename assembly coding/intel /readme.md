@@ -253,3 +253,7 @@ b8 2a 00 00 00 ; mov eax, 42
 http://ref.x86asm.net/coder64.html#xF3
 
 https://gist.github.com/mikesmullin/6259449
+
+https://www.felixcloutier.com/x86/
+
+
