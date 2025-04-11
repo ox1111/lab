@@ -13,6 +13,7 @@
 0x55555555518e:  c3                 ; ret
 ```
 
+```
 명령어                                   바이트 (HEX)    ;설명
 
 push rbp                                55              ; opcode(1): 64비트 기본 레지스터 단축 opcode
@@ -35,7 +36,7 @@ leave                                   c9              ; 단일 opcode
 
 ret                                     c3              ; 단일 opcode
 
-
+```
 📌 추가 분석:
 
 mov QWORD PTR [rbp-0x8], rax = 48 89 45 f8
