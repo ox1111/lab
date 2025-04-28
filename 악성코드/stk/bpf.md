@@ -20,7 +20,7 @@ BPF 백도어는  Berkeley Packet Filter를
 
 아래와 같은 방법으로 기존 시스템에 
 악성코드 감염 여부를 확인가능합니다.
-
+```
 hacker@hacker:/opt/lampp/htdocs/gnuboard/5.5.15/a$ ip link show dev ens33
 2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 xdpgeneric qdisc fq_codel state UP mode DEFAULT group default qlen 1000
     link/ether 00:0c:29:62:c5:a4 brd ff:ff:ff:ff:ff:ff
@@ -32,7 +32,7 @@ int xdp_filter(struct xdp_md * ctx):
 ; return XDP_PASS;
    0: (b7) r0 = 2
    1: (95) exit
-   
+```   
 [ BPF 악성코드에 대한 방어 전략 ]
 
 1. 주기적으로 침해사고 대응 전략
