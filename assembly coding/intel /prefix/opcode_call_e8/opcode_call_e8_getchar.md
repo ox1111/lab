@@ -179,9 +179,8 @@ Ring   권한       용도
 구분	        User Mode	         Kernel Mode
 
 Ring	        Ring 3	            Ring 0
-주소 공간	    0x00000000~...	    0xC0000000~ or 높은 영역
+주소 공간    0x00000000~...      0xC0000000~ or 높은 영역
 권한	        제한됨	             모든 메모리 접근 가능
-
 syscall	가능 ❌ 직접 X	가능 ✅
 ```
 
