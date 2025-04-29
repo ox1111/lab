@@ -404,3 +404,108 @@ SS               | 스택 세그먼트 | 스택 위치와 크기 정의
 | 6 (4+4비트)     | Flags + Limit[19:16]      | 1B    | 상위 Limit + Flags             |
 | 7 (8비트)       | **Base[31:24]**           | 1B    | 시작 주소의 상위 바이트         |
 ```
+
+
+```
+gdt_code:
+    dw 0xFFFF          ; Limit[15:0]  → 하위 크기
+    dw 0x0000          ; Base[15:0]   → 시작 주소 하위
+    db 0x00            ; Base[23:16]  → 중간 바이트
+    db 10011010b       ; Access Byte (Type + S + DPL + P)
+    db 11001111b       ; Flags(4) + Limit[19:16]
+    db 0x00            ; Base[31:24]  → 상위
+```
+
+
+🔍 필드 분석
+
+📌 Base (세그먼트 시작 주소)
+
+Base[15:0] = 0x0000
+
+Base[23:16] = 0x00
+
+Base[31:24] = 0x00
+
+⟶ 전체 Base = 0x00000000
+
+👉 이 세그먼트는 물리 주소 0x00000000부터 시작
+
+
+📌 Limit (세그먼트 크기)
+
+Limit[15:0] = 0xFFFF
+
+Limit[19:16] = 0xF
+
+⟶ 전체 Limit = 0xFFFFF = 1MB
+
+✅ Granularity(4KB 단위) 플래그가 켜져 있으면:
+
+```
+0xFFFFF × 4KB = 4GB - 1B
+
+```
+
+
+📌 Type + DPL (Access Byte = 10011010b)
+
+```
+비트 | 필드 | 설명
+7 | P = 1 | Present (사용 가능)
+6-5 | DPL = 00 | Descriptor 권한 = Ring 0
+4 | S = 1 | Code/Data 구분 (1=일반 세그먼트)
+3-0 | Type = 1010 | Code Segment, readable, not conforming
+```
+
+📌 Flags (1100)
+
+```
+비트 | 의미
+G = 1 | Granularity = 4KB 단위
+D = 1 | 32-bit segment
+0 | AVL = 0 (예약)
+L = 0 | 64비트 segment 아님 (for legacy code)
+```
+
+
+### 📊 GDT 디스크립터 구조 (예: 코드 세그먼트)
+```
+Base:
+- Base = Base[15:0] + Base[23:16] + Base[31:24]
+- ex) 0x00000000 → 세그먼트 시작 주소
+
+Limit:
+- Limit = Limit[15:0] + Limit[19:16]
+- Granularity = 4KB 단위면: Limit × 4KB
+
+Access Byte (Type/DPL):
+- P = Present (1 = 사용 가능)
+- DPL = Descriptor Privilege Level (0~3)
+- S = 1 (Code/Data 세그먼트)
+- Type = 1010 (Code, readable)
+
+Flags:
+- G = 1 (4KB 단위)
+- D = 1 (32bit)
+- L = 0 (64bit 아님)
+```
+
+✅ 실제 메모리 예시: 8바이트 바이트값
+
+```
+GDT[5] = FF FF 00 00 00 9A CF 00
+         ↑  ↑   ↑  ↑  ↑  ↑  ↑ ↑
+        limit base base typ lim flg base
+
+```
+
+이 구조를 기반으로 CPU는:
+
+Base + offset 계산
+
+접근 제한 검사
+
+권한 비교 (DPL vs CPL/RPL)
+
+을 모두 수행합니다.
