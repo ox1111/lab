@@ -591,3 +591,91 @@ paging 기능 활성화 가능 (추가 설정 필요)
 
 멀티태스킹 지원 기반이 마련됨
 
+```
+; 1단계 부트로더 (512바이트 MBR, GRUB 없이 직접 보호 모드 진입)
+; stage1.asm
+[BITS 16]
+[ORG 0x7c00]             ; BIOS는 MBR을 0x7c00에 로딩함
+
+start:
+    cli
+    xor ax, ax
+    mov ds, ax
+    mov es, ax
+    mov ss, ax
+    mov sp, 0x7c00
+
+    ; Stage2 로딩 (0x0000:0x8000 = 0x8000)
+    mov si, 0            ; sector = 0
+    mov dl, 0x00         ; 부팅 드라이브
+    mov bx, 0x8000       ; 로딩 위치
+    call load_stage2
+
+    jmp 0x0000:0x8000    ; stage2 시작
+
+load_stage2:
+    mov ah, 0x02         ; BIOS read sector
+    mov al, 1            ; read 1 sector
+    mov ch, 0            ; cylinder 0
+    mov cl, 2            ; sector 2 (stage2는 MBR 다음)
+    mov dh, 0            ; head 0
+    int 0x13
+    ret
+
+; 부트 시그니처 (필수!)
+times 510 - ($ - $$) db 0
+    dw 0xAA55
+
+; ===== stage2.asm: 2단계 부트로더 (Protected Mode 진입) =====
+[BITS 16]
+[ORG 0x8000]
+
+stage2:
+    cli
+    lgdt [gdt_descriptor]
+    mov eax, cr0
+    or eax, 1
+    mov cr0, eax
+    jmp 0x08:protected_mode
+
+; GDT 정의 (code=0x08, data=0x10)
+gdt_start:
+    dq 0
+    dw 0xFFFF, 0x0000, 0x9A00, 0x00CF  ; code segment
+    dw 0xFFFF, 0x0000, 0x9200, 0x00CF  ; data segment
+gdt_end:
+
+gdt_descriptor:
+    dw gdt_end - gdt_start - 1
+    dd gdt_start
+
+; 보호 모드 진입 코드
+[BITS 32]
+protected_mode:
+    mov ax, 0x10
+    mov ds, ax
+    mov es, ax
+    mov fs, ax
+    mov gs, ax
+    mov ss, ax
+
+    mov esp, 0x90000
+    mov ebx, msg
+    call print_string
+    hlt
+
+print_string:
+.next:
+    mov al, [ebx]
+    test al, al
+    jz .done
+    mov ah, 0x0E
+    int 0x10
+    inc ebx
+    jmp .next
+.done:
+    ret
+
+msg db "[✔] Protected Mode 진입 성공!", 0
+
+```
