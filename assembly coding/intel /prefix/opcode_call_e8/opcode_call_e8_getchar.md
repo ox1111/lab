@@ -311,10 +311,22 @@ Ring 3 상태에서 gs = 0x2B → RPL = 11 (Ring 3)
 
 - 0x2B = 0010 1011 (16bit)
 - RPL = 11 = Ring 3
-- TI = 0 → GDT
+- TI = 0 → GDT (Global Descriptor Table)
 - Index = bits 15:3 = 0000000000101 = 5
 
 📌  0x2B는 GDT의 5번 디스크립터를 Ring 3 권한으로 참조함
+
+
+
+✅ GDT란? (Global Descriptor Table)
+
+GDT는 보호 모드(Protected Mode)에서 
+
+**세그먼트의 정보(주소, 크기, 권한 등)**를 정의해둔 테이블
+
+CPU는 프로그램이 세그먼트 레지스터(CS, DS, GS 등)를 
+
+사용할 때마다 GDT를 참조
 
 
 
