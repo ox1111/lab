@@ -38,8 +38,8 @@ little-endian 변환
 
 d8 fe ff ff  -> ff ff fe d8 = 0xffffed8
 
-
-0xFFFFFED8 
+ 
+0xFFFFFED8  = 11111111 11111111 11111110 11011000 (32-bit)
 0x00000000 ~ 0x7FFFFFFF → 양수
 0x80000000 ~ 0xFFFFFFFF → 음수
 
