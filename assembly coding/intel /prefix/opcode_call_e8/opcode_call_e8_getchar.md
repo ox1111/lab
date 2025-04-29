@@ -1,4 +1,4 @@
-[  e8 d8 fe ff ff   ]
+# [  e8 d8 fe ff ff   ]
 
 ```
 0x555555555183 : call getchar@plt   e8 d8 fe ff ff
@@ -9,7 +9,7 @@
 
 ## 
 
-📌 용어
+## 📌 용어
 
 rel32 : Relative 32-bit signed offset
 
