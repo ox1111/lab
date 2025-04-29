@@ -47,6 +47,9 @@ d8 fe ff ff  -> ff ff fe d8 = 0xffffed8
 
 0x80000000 ~ 0xFFFFFFFF → 음수
 
+➡️ 가장 높은 왼쪽 비트 = MSB: Most Significant Bit)가 1이면 → 음수!
+➡️ 가장 높은 왼쪽 비트 = MSB: Most Significant Bit)가 0이면 → 양수!
+
 따라서 음수 0x128 = -0x128
 
 ```
