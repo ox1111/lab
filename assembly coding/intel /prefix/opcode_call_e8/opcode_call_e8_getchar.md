@@ -679,3 +679,19 @@ print_string:
 msg db "[✔] Protected Mode 진입 성공!", 0
 
 ```
+
+
+
+```
+nasm -f bin stage1.asm -o stage1.bin
+nasm -f bin stage2.asm -o stage2.bin
+
+cat stage1.bin stage2.bin > boot.img
+
+
+qemu-system-i386 -drive format=raw,file=boot.img
+
+
+```
+
+
