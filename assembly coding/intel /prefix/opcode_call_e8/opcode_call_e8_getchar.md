@@ -192,6 +192,66 @@ int 0x80, syscall 등을 통해 컨트롤 진입해야 합니다.
 
 ```
 
+✅  GS 레지스터의 값은 "세그먼트 셀렉터"이다
+
+세그먼트 레지스터 (GS, FS, DS 등)에 저장되는 값은:
+
+"세그먼트 셀렉터(Segment Selector)" 라고 부릅니다.
+
+
+GS = 0x2B 같은 값은 단순한 주소가 아니라,
+
+→ GDT/LDT 테이블에서 세그먼트를 참조할 수 있는 
+
+인덱스 구조이기 때문입니다.
+
+
+
+📦 세그먼트 셀렉터(Segment Selector)의 구조 (16bit)
+
+```
+15       3  2    1   0
++-----------+----+----+
+| Index     | TI | RPL|
++-----------+----+----+
+
+15 ───────────────3  2  1  0
+[ Index (13 bits) ] TI RPL
+
+
+
+필드	크기	설명
+
+Index	 : 13비트	GDT/LDT에서 디스크립터 위치 ( 	GDT 또는 LDT에서 사용할 디스크립터 슬롯 번호 )
+
+TI (Table Indicator)    :	1비트	0 = GDT, 1 = LDT
+
+RPL (Requestor Privilege Level)	   : 2비트	Requestor Privilege Level : 현재 접근 권한 (Ring 0~3)
+
+
+- GDT (Global Descriptor Table): 시스템 전체 공용
+
+- LDT (Local Descriptor Table): 각 프로세스 개별 가능
+
+- TI (Table Indicator): 0 = GDT, 1 = LDT
+
+```
+
+즉, GS에 들어가는 값은 = **세그먼트를 선택할 수 있는 번호(Selector)**입니다.
+
+그래서 "GS는 세그먼트 셀렉터다"라고 부르는 거예요.
+
+### 🔍 GS는 왜 세그먼트 셀렉터인가?
+
+- GS는 Segment Register 중 하나 (General Segment)
+- GS 레지스터의 값은 단순 숫자가 아니라 → "Segment Selector"
+- Selector는 GDT/LDT 테이블에서 어떤 세그먼트를 참조할지 지정하는 포인터
+- 16비트 구조: [Index | TI | RPL]
+
+📌 그래서 GS는 "세그먼트 셀렉터 역할을 하는 레지스터"다.
+📌 FS/GS는 특히 Thread Local Storage (TLS), 커널 컨텍스트에서 많이 사용됨
+
+
 📌 용어
 ```
 RPL | Requestor Privilege Level | 세그먼트 셀렉터의 하위 2비트, 현재 코드 실행자의 권한
@@ -201,6 +261,8 @@ CPL | Current Privilege Level | CS 세그먼트 셀렉터의 RPL과 동일 (실�
 DPL | Descriptor Privilege Level | 세그먼트 디스크립터 안에 저장된 권한 값 (해당 메모리 영역의 보호 수준)
 
 ```
+
+
 
 ✅ GS 레지스터의 셀렉터에서 RPL 필드 확인
 
@@ -230,6 +292,18 @@ Ring 0 상태에서 gs = 0x20 → RPL = 00 (Ring 0)
                           ^^
                           RPL = 00
 ```
+
+### 🔍 세그먼트 셀렉터 0x2B 해석 
+
+- 0x2B = 0010 1011 (16bit)
+- RPL = 11 = Ring 3
+- TI = 0 → GDT
+- Index = bits 15:3 = 0000000000101 = 5
+
+📌 그래서 0x2B는 GDT의 5번 디스크립터를 Ring 3 권한으로 참조함
+📌 이전 설명에서 Index = 0x0A는 잘못된 계산이었음 → 올바른 값은 0x05
+
+
 
 
 
