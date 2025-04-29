@@ -81,6 +81,11 @@ rip = 0x555555555188
 rip = 0x555555555060 = getchar@plt = <--
 ```
 
+📌 최종적으로 다음와 같다.
+
+call rip 는 call 0x555555555060  = call  getchar@plt  = e8 d8 fe ff ff  
+
+
 
 📌 c8 cw/cd
 
@@ -98,7 +103,5 @@ e8 cd → "call with 32-bit code operand" → call rel32
 
 
  
- 최종적으로 다음와 같다.
 
-call rip 는 call 0x555555555060  = call  getchar@plt  = e8 d8 fe ff ff  
 
