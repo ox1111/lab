@@ -48,6 +48,8 @@ d8 fe ff ff  -> ff ff fe d8 = 0xffffed8
 
 call 0x555555555060(getchar@plt) 이다
 
+rip = 0x555555555183 
+
 rip = 0x555555555188
 
 rip = 0x555555555060 = getchar@plt = <--
