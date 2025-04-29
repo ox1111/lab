@@ -1,10 +1,11 @@
 [  e8 d8 fe ff ff   ]
 
-
+```
 0x555555555183 : call getchar@plt   e8 d8 fe ff ff  
 
 ; call opcode(1) + rel32(4)
 
+```
 
 [+] e8 = call rel32
 
