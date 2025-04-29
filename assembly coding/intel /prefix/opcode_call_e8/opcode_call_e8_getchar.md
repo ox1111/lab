@@ -85,7 +85,7 @@ rip = 0x555555555060 = getchar@plt = <--
 
 ##  📌 최종적으로 다음와 같다.
 
-call rip -> call  getchar@plt -> e8 d8 fe ff ff  ->  call 0x555555555060
+call rip -> call  getchar@plt ->  call 0x555555555060 -> e8 d8 fe ff ff
 
 
 #  📌 c8 cw/cd
