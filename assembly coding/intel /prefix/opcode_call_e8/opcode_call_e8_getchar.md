@@ -509,3 +509,85 @@ Base + offset 계산
 권한 비교 (DPL vs CPL/RPL)
 
 을 모두 수행합니다.
+
+
+🔧 GDT 선언 예제 (nasm)
+
+```
+gdt_start:
+    dq 0                    ; null descriptor
+    dw 0xFFFF, 0x0000, 0x9A00, 0x00CF   ; code segment (Ring 0)
+    dw 0xFFFF, 0x0000, 0x9200, 0x00CF   ; data segment (Ring 0)
+gdt_end:
+
+gdt_descriptor:
+    dw gdt_end - gdt_start - 1
+    dd gdt_start
+
+
+```
+
+🔧 NASM 코드 예제 (완성 흐름)
+
+```
+[BITS 16]
+org 0x7c00          ; BIOS가 로딩하는 주소
+
+start:
+    cli             ; 인터럽트 비활성화
+    xor ax, ax
+    mov ds, ax
+    mov es, ax
+    mov ss, ax
+    mov sp, 0x7c00
+
+    ; GDT 로딩
+    lgdt [gdt_descriptor]
+
+    ; 보호 모드 진입 준비: CR0의 PE 비트 설정
+    mov eax, cr0
+    or eax, 1
+    mov cr0, eax
+
+    ; 32비트 Protected Mode 진입 (FAR jump)
+    jmp 0x08:protected_mode_start
+
+; GDT 정의
+gdt_start:
+    dq 0                          ; Null Descriptor
+    dw 0xFFFF, 0x0000, 0x9A00, 0x00CF  ; Code Segment (Ring 0)
+    dw 0xFFFF, 0x0000, 0x9200, 0x00CF  ; Data Segment (Ring 0)
+gdt_end:
+
+gdt_descriptor:
+    dw gdt_end - gdt_start - 1
+    dd gdt_start
+
+; 32비트 Protected Mode 코드
+[BITS 32]
+protected_mode_start:
+    mov ax, 0x10       ; data segment selector
+    mov ds, ax
+    mov es, ax
+    mov fs, ax
+    mov gs, ax
+    mov ss, ax
+
+    mov esp, 0x90000   ; 스택 초기화
+
+    ; 여기부터 보호 모드에서의 프로그램 실행
+    hlt
+
+```
+
+
+✅ 보호 모드 진입 후에는?
+
+32비트 코드 실행 가능
+
+Ring 0~3 구분 가능
+
+paging 기능 활성화 가능 (추가 설정 필요)
+
+멀티태스킹 지원 기반이 마련됨
+
