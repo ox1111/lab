@@ -7,6 +7,11 @@
 
 ```
 
+
+```
+c8 cd/cw
+```
+
 📌 용어
 
 rel32 : Relative 32-bit signed offset
