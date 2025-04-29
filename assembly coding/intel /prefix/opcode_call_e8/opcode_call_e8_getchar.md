@@ -66,10 +66,11 @@ d8 fe ff ff  -> ff ff fe d8 = 0xffffed8
 
 2의  보수 
 0x100000000 - 0xFFFFFED8 = 0x128
-따라서 음수 0x128 = -0x128
+
+음수 0x128 = -0x128
 
 ```
-따라서 d8 fe ff ff는 -0x128이다
+∴ d8 fe ff ff는 -0x128이다
 
 그래서 점프할 주소는 0x555555555188  + (-0x128) =  0x555555555060
 
@@ -85,7 +86,7 @@ rip = 0x555555555060 = getchar@plt = <--
 
 ##  📌 최종적으로 다음와 같다.
 
-call rip -> call  getchar@plt ->  call 0x555555555060 -> e8 d8 fe ff ff
+call rip -> call  getchar@plt -> e8 d8 fe ff ff ->  call 0x555555555060 
 
 
 #  📌 c8 cw/cd
