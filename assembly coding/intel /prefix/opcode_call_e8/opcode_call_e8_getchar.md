@@ -39,17 +39,17 @@ little-endian 변환
 d8 fe ff ff  -> ff ff fe d8 = 0xffffed8
 
 
-2의  보수 
-
-0x100000000 - 0xFFFFFED8 = 0x128
-
+0xFFFFFED8 
 0x00000000 ~ 0x7FFFFFFF → 양수
-
 0x80000000 ~ 0xFFFFFFFF → 음수
 
 ➡️ 가장 높은 왼쪽 비트 = MSB: Most Significant Bit)가 1이면 → 음수!
 ➡️ 가장 높은 왼쪽 비트 = MSB: Most Significant Bit)가 0이면 → 양수!
 
+따라서 0xFFFFFED8는 음수
+
+2의  보수 
+0x100000000 - 0xFFFFFED8 = 0x128
 따라서 음수 0x128 = -0x128
 
 ```
