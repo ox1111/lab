@@ -91,7 +91,7 @@ call rip -> call  getchar@plt -> e8 d8 fe ff ff  ->  call 0x555555555060
 
 
 📌 용어
-
+```
 cw : Code Word	  ; code operand가 32bit 크기
 
 cd : Code Doubleword	 ; code operand가 16bit 크기
@@ -99,7 +99,7 @@ cd : Code Doubleword	 ; code operand가 16bit 크기
 e8 cw → "call with 16-bit code operand"  → call rel16
 
 e8 cd → "call with 32-bit code operand" → call rel32
-
+```
 
 
  
