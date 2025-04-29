@@ -8,9 +8,6 @@
 ```
 
 
-```
-c8 cd/cw
-```
 
 📌 용어
 
@@ -21,7 +18,8 @@ rel : relative  상대적인
 32 = 4바이트 크기 (32비트)
 
 signed int : 부호있는 정수 ( 앞/뒤 모두 jump 가능 )
- 
+
+
 
 📌 [+] e8 = call rel32
 
@@ -83,6 +81,23 @@ rip = 0x555555555188
 rip = 0x555555555060 = getchar@plt = <--
 ```
 
+
+📌 c8 cw/cd
+
+
+📌 용어
+
+cw : Code Word	  ; code operand가 32bit 크기
+
+cd : Code Doubleword	 ; code operand가 16bit 크기
+
+e8 cw → "call with 16-bit code operand"  → call rel16
+
+e8 cd → "call with 32-bit code operand" → call rel32
+
+
+
+ 
  최종적으로 다음와 같다.
 
 call rip 는 call 0x555555555060  = call  getchar@plt  = e8 d8 fe ff ff  
