@@ -115,7 +115,7 @@ Protected Mode(call rel32) : 64비트	현대 시스템, 기본적으로 call rel
 * 32/64bit는 call rel32사용하고 64bit 부터는 rel32만 사용
 
 
-🔹 Real Mode란?
+## 🔹 Real Mode란?
 
 가장 초기의 x86 CPU 모드 (8086 CPU)
 
@@ -129,7 +129,7 @@ Protected Mode(call rel32) : 64비트	현대 시스템, 기본적으로 call rel
 
 📌 사용 예: 부트로더 (ex. MBR), BIOS, 초기 16비트 어셈블리
 
-🔹 Protected Mode란?
+##  🔹 Protected Mode란?
 
 메모리를 보호하고, 현대 운영체제를 구현하기 위한 CPU 모드
 
