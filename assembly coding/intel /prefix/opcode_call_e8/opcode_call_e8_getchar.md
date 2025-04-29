@@ -7,6 +7,17 @@
 
 ```
 
+📌 용어
+
+rel32 : Relative 32-bit signed offset
+
+rel : relative  상대적인
+
+32 = 4바이트 크기 (32비트)
+
+signed int : 부호있는 정수 ( 앞/뒤 모두 jump 가능 )
+ 
+
 📌 [+] e8 = call rel32
 
 : call 명령어(opcode)
