@@ -43,6 +43,10 @@ d8 fe ff ff  -> ff ff fe d8 = 0xffffed8
 
 0x100000000 - 0xFFFFFED8 = -0x128
 
+0x00000000 ~ 0x7FFFFFFF → 양수
+
+0x80000000 ~ 0xFFFFFFFF → 음수
+
 ```
 따라서 d8 fe ff ff는 0x128이다
 
