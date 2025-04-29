@@ -86,7 +86,7 @@ rip = 0x555555555060 = getchar@plt = <--
 call rip -> call  getchar@plt -> e8 d8 fe ff ff  ->  call 0x555555555060
 
 
-
+## 
 📌 c8 cw/cd
 
 
