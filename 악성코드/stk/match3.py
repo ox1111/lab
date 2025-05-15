@@ -1,8 +1,9 @@
 #
 # write by SpeeDr00t
+#
 #  * 실운영 서버에서 직접 돌리지 마세요.
 #
-3
+
 
 find_hex_patterns = []
 find_string_patterns = []
